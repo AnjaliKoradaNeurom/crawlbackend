@@ -1,0 +1,1455 @@
+2025-07-09 01:30:01,851 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 01:30:01,890 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 01:30:01,890 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 01:30:01,890 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+, falling back to rule-based analysis
+2025-07-09 01:30:01,890 - main - INFO - ✅ All components initialized successfully
+2025-07-09 01:32:00,498 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-09 01:32:12,320 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 01:32:12,329 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 01:32:12,329 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 01:32:14,203 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1056 request_id=req_beda6b4ee2d37c2c5378e2feaea23650 response_code=200
+2025-07-09 01:32:14,203 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-09 01:32:14,203 - main - INFO - ✅ All components initialized successfully
+2025-07-09 01:37:45,408 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-09 01:44:34,628 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 01:44:34,628 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 01:44:34,628 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 01:44:36,103 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=519 request_id=req_3b643e1e5644f35bdd520b1ffe59df3f response_code=200
+2025-07-09 01:44:36,111 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-09 01:44:36,119 - main - INFO - ✅ All components initialized successfully
+2025-07-09 13:29:17,876 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 13:29:17,892 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 13:29:17,892 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 13:29:19,726 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=863 request_id=req_0eef4d9f50d422d06afbd9cfe26edfe8 response_code=200
+2025-07-09 13:29:19,726 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-09 13:29:19,726 - main - INFO - ✅ All components initialized successfully
+2025-07-09 14:23:17,229 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-09 15:14:23,212 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 15:14:23,252 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 15:14:23,258 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 15:14:23,271 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+, falling back to rule-based analysis
+2025-07-09 15:14:23,271 - main - INFO - ✅ All components initialized successfully
+2025-07-09 15:17:13,504 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-09 15:18:02,313 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 15:18:02,325 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 15:18:02,325 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 15:18:02,337 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+, falling back to rule-based analysis
+2025-07-09 15:18:02,337 - main - INFO - ✅ All components initialized successfully
+2025-07-09 15:18:12,161 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-09 15:18:33,279 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 15:18:33,304 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 15:18:33,304 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 15:18:37,175 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1196 request_id=req_598e37542fe7fccf9a342e7bd1b44677 response_code=200
+2025-07-09 15:18:37,184 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-09 15:18:37,184 - main - INFO - ✅ All components initialized successfully
+2025-07-09 15:28:47,708 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-09 15:28:50,741 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 15:28:50,748 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 15:28:50,748 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 15:28:53,164 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=613 request_id=req_11313f8f3f622209c919b6b5316c23dd response_code=200
+2025-07-09 15:28:53,175 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-09 15:28:53,175 - main - INFO - ✅ All components initialized successfully
+2025-07-09 15:29:01,562 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-09 15:29:04,061 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 15:29:04,064 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 15:29:04,073 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 15:29:05,715 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=702 request_id=req_49b173bbead7cace98f481d57f84b265 response_code=200
+2025-07-09 15:29:05,724 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-09 15:29:05,724 - main - INFO - ✅ All components initialized successfully
+2025-07-09 15:29:22,569 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-09 15:29:24,919 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 15:29:24,939 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 15:29:24,942 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 15:29:27,147 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1042 request_id=req_fa250af257743e73123a3b793b46ad2d response_code=200
+2025-07-09 15:29:27,152 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-09 15:29:27,152 - main - INFO - ✅ All components initialized successfully
+2025-07-09 15:31:10,360 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-09 15:31:14,516 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 15:31:14,521 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 15:31:14,532 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 15:31:17,626 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1064 request_id=req_b15b88ab498962e146cf2edb069b6745 response_code=200
+2025-07-09 15:31:17,626 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-09 15:31:17,626 - main - INFO - ✅ All components initialized successfully
+2025-07-09 15:47:42,403 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-09 15:47:47,271 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 15:47:47,287 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 15:47:47,287 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 15:47:49,683 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=600 request_id=req_a6317d5f7a066b59a46ce7bfda27a259 response_code=200
+2025-07-09 15:47:49,691 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-09 15:47:49,691 - main - INFO - ✅ All components initialized successfully
+2025-07-09 15:48:14,370 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-09 15:48:17,204 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 15:48:17,221 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 15:48:17,227 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 15:48:19,222 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=579 request_id=req_7bc409e7d664ed893d32469c0ad45bfe response_code=200
+2025-07-09 15:48:19,228 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-09 15:48:19,228 - main - INFO - ✅ All components initialized successfully
+2025-07-09 15:48:29,049 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-09 15:48:32,130 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 15:48:32,156 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 15:48:32,158 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 15:48:34,079 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1114 request_id=req_14d24752e81f5069b747c13f9e14336d response_code=200
+2025-07-09 15:48:34,079 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-09 15:48:34,079 - main - INFO - ✅ All components initialized successfully
+2025-07-09 20:50:05,301 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-09 20:50:05,318 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-09 20:50:05,321 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-09 20:50:27,308 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1077 request_id=req_44353e7f87227f911c2f7e500c64c939 response_code=200
+2025-07-09 20:50:27,322 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-09 20:50:27,326 - main - INFO - ✅ All components initialized successfully
+2025-07-11 11:44:54,669 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 11:44:54,706 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 11:44:54,706 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 11:44:57,113 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1299 request_id=req_360a13c0c6adf5204054a006e1c499b1 response_code=200
+2025-07-11 11:44:57,113 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-11 11:44:57,113 - main - INFO - ✅ All components initialized successfully
+2025-07-11 12:05:02,756 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 12:50:32,743 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 12:50:32,759 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 12:50:32,759 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 12:50:34,516 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=819 request_id=req_cace323b00a4c9a2c3f4e0ce3bd8d2da response_code=200
+2025-07-11 12:50:34,516 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful
+2025-07-11 12:50:34,516 - main - INFO - ✅ All components initialized successfully
+2025-07-11 19:16:40,993 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 19:16:41,037 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 19:16:41,037 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 19:16:41,050 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+, falling back to rule-based analysis
+2025-07-11 19:16:41,050 - main - INFO - ✅ All components initialized successfully
+2025-07-11 19:17:06,542 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 19:17:26,100 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 19:17:26,116 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 19:17:26,116 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 19:17:26,701 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_0502c5dd550ef3ff542be611da072a02 response_code=401
+2025-07-11 19:17:26,701 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************BqwA. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-07-11 19:17:26,704 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************BqwA. You can find your API key at https://platform.openai.com/account/api-keys., falling back to rule-based analysis
+2025-07-11 19:17:26,704 - main - INFO - ✅ All components initialized successfully
+2025-07-11 19:19:08,756 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 19:19:13,254 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 19:19:13,254 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 19:19:13,269 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 19:19:13,880 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_22f2bd564c4ad1e694b0d66e35339129 response_code=401
+2025-07-11 19:19:13,896 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************BqwA. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-07-11 19:19:13,896 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************BqwA. You can find your API key at https://platform.openai.com/account/api-keys., falling back to rule-based analysis
+2025-07-11 19:19:13,896 - main - INFO - ✅ All components initialized successfully
+2025-07-11 19:19:35,575 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 19:19:38,355 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 19:19:38,375 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 19:19:38,376 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 19:19:38,403 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 19:19:58,361 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 19:19:58,384 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 19:19:58,384 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 19:19:58,396 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+, falling back to rule-based analysis
+2025-07-11 19:19:58,407 - main - INFO - ✅ All components initialized successfully
+2025-07-11 19:20:15,097 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 19:20:27,281 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 19:20:27,281 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 19:20:27,296 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 19:20:28,394 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_5642298b19fe2815574cfe848bad1440 response_code=401
+2025-07-11 19:20:28,394 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************BqwA. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-07-11 19:20:28,394 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************BqwA. You can find your API key at https://platform.openai.com/account/api-keys., falling back to rule-based analysis
+2025-07-11 19:20:28,394 - main - INFO - ✅ All components initialized successfully
+2025-07-11 19:48:48,580 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 19:48:59,715 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 19:48:59,728 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 19:48:59,728 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 19:48:59,774 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: Error communicating with OpenAI, falling back to rule-based analysis
+2025-07-11 19:48:59,776 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:18:40,154 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:18:40,164 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:18:40,164 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:18:40,696 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_c41f334890f964015676958e87c3ff67 response_code=401
+2025-07-11 20:18:40,696 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************BqwA. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-07-11 20:18:40,712 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************BqwA. You can find your API key at https://platform.openai.com/account/api-keys., falling back to rule-based analysis
+2025-07-11 20:18:40,712 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:18:49,595 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 20:19:10,489 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:19:10,489 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:19:10,505 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:19:11,382 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_6cbf4ab78feeb5a8e808e3c7ddad0cbc response_code=401
+2025-07-11 20:19:11,382 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************BqwA. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-07-11 20:19:11,386 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************BqwA. You can find your API key at https://platform.openai.com/account/api-keys., falling back to rule-based analysis
+2025-07-11 20:19:11,386 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:19:19,411 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 20:21:10,935 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:21:10,935 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:21:10,935 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:21:11,579 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_d6ddeeaa9ab77f0ef0d02f715b7b5678 response_code=401
+2025-07-11 20:21:11,579 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-*******************************************************************************************************************************************************hPUA. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-07-11 20:21:11,595 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: Incorrect API key provided: sk-proj-*******************************************************************************************************************************************************hPUA. You can find your API key at https://platform.openai.com/account/api-keys., falling back to rule-based analysis
+2025-07-11 20:21:11,595 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:23:52,121 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 20:23:56,384 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:23:56,394 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:23:56,395 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:23:56,396 - core.ai_analyzer - WARNING - ⚠️ OpenAI API key not found, using rule-based analysis
+2025-07-11 20:23:56,396 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:28:29,303 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 20:28:34,169 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:28:34,169 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:28:34,169 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:28:34,190 - core.ai_analyzer - WARNING - ⚠️ OpenAI API key not found, using rule-based analysis
+2025-07-11 20:28:34,190 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:30:16,899 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 20:30:21,102 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:30:21,102 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:30:21,102 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:30:21,122 - core.ai_analyzer - WARNING - ⚠️ OpenAI API key not found, using rule-based analysis
+2025-07-11 20:30:21,122 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:31:32,431 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 20:31:36,983 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:31:36,990 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:31:36,990 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:31:37,002 - core.ai_analyzer - WARNING - ⚠️ OpenAI API key not found, using rule-based analysis
+2025-07-11 20:31:37,002 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:47:05,959 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 20:47:08,246 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:47:08,262 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:47:08,262 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:47:08,274 - core.ai_analyzer - WARNING - ⚠️ OpenAI API key not found, using rule-based analysis
+2025-07-11 20:47:08,274 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:47:26,416 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 20:47:28,389 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:47:28,389 - core.ai_analyzer - WARNING - ⚠��� OpenAI API key not found in environment variables
+2025-07-11 20:47:28,389 - core.ai_analyzer - INFO - Available environment variables starting with 'OPENAI': ['OPENAI_API_KEY']
+2025-07-11 20:47:28,389 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:47:28,399 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:47:28,407 - core.ai_analyzer - WARNING - ⚠️ OpenAI API key not found, using rule-based analysis only
+2025-07-11 20:47:28,407 - core.ai_analyzer - INFO - 💡 To enable AI analysis, set OPENAI_API_KEY in your .env file
+2025-07-11 20:47:28,407 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:48:51,514 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 20:51:33,788 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:51:33,809 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-11 20:51:33,810 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:51:33,810 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:51:35,254 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_56d3cf6992f6676920a92e0bb222af3e response_code=401
+2025-07-11 20:51:35,255 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************BqwA. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-07-11 20:51:35,256 - core.ai_analyzer - ERROR - ❌ OpenAI API authentication failed - check your API key
+2025-07-11 20:51:35,257 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:52:39,442 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 20:52:42,629 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:52:42,633 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-11 20:52:42,633 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:52:42,633 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:52:44,227 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_ecc8dd7959c79052e52a6c27bc24fa63 response_code=404
+2025-07-11 20:52:44,229 - openai - INFO - error_code=model_not_found error_message='The model `gpt-4` does not exist or you do not have access to it.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-07-11 20:52:44,229 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: The model `gpt-4` does not exist or you do not have access to it., falling back to rule-based analysis
+2025-07-11 20:52:44,229 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:55:16,526 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 20:55:18,682 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:55:18,689 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-11 20:55:18,689 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:55:18,689 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:55:19,703 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_365374f72617c42de14c537c2ecb93e0 response_code=404
+2025-07-11 20:55:19,704 - openai - INFO - error_code=model_not_found error_message='The model `gpt-4` does not exist or you do not have access to it.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-07-11 20:55:19,704 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: The model `gpt-4` does not exist or you do not have access to it., falling back to rule-based analysis
+2025-07-11 20:55:19,705 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:55:28,958 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 20:55:30,517 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 20:55:30,517 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-11 20:55:30,517 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 20:55:30,517 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 20:55:31,454 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_52c9cd47eecb734fd1a975c879139eb4 response_code=404
+2025-07-11 20:55:31,454 - openai - INFO - error_code=model_not_found error_message='The model `gpt-4` does not exist or you do not have access to it.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-07-11 20:55:31,454 - core.ai_analyzer - WARNING - ⚠️ OpenAI API test failed: The model `gpt-4` does not exist or you do not have access to it., falling back to rule-based analysis
+2025-07-11 20:55:31,454 - main - INFO - ✅ All components initialized successfully
+2025-07-11 20:55:35,458 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 21:00:12,363 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 21:00:12,363 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-11 21:00:12,363 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 21:00:12,363 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 21:00:12,389 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-11 21:00:16,004 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=811 request_id=req_31527f7d07d65ee04095a1b7a13e16fd response_code=200
+2025-07-11 21:00:16,027 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-11 21:00:16,027 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-11 21:00:16,027 - main - INFO - ✅ All components initialized successfully
+2025-07-11 21:08:21,264 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 21:17:17,330 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=287 request_id=req_2e54e352cde03a3117b3f25c9d4cb954 response_code=200
+2025-07-11 21:17:40,919 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=372 request_id=req_d705a4f3e021bd1167555694a1e2edd4 response_code=200
+2025-07-11 21:17:48,018 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1361 request_id=req_edac5eecd731b6b6f39f394585c07c0d response_code=200
+2025-07-11 21:17:55,322 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=576 request_id=req_7947730a2286db3d61d3ccb9ffaca353 response_code=200
+2025-07-11 21:18:12,967 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 21:18:12,988 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-11 21:18:12,988 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 21:18:12,994 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 21:18:13,011 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-11 21:18:15,270 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=256 request_id=req_64c4c1beaebba26efdfb7285faaffac7 response_code=200
+2025-07-11 21:18:15,284 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-11 21:18:15,284 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-11 21:18:15,286 - main - INFO - ✅ All components initialized successfully
+2025-07-11 21:18:15,286 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 21:18:18,317 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 21:18:18,343 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-11 21:18:18,343 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 21:18:18,343 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 21:18:18,366 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-11 21:18:19,006 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_4c5d6097095a2245f8f5e51c5676113b response_code=429
+2025-07-11 21:18:19,007 - openai - INFO - error_code=rate_limit_exceeded error_message='Rate limit reached for gpt-4o-mini in organization org-rQp2RUREK2qNMx5knDiCxIJq on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+2025-07-11 21:18:19,009 - core.ai_analyzer - WARNING - ⚠️ Rate limit reached for gpt-4o-mini, trying next model
+2025-07-11 21:18:19,009 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o
+2025-07-11 21:18:19,780 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_dc711ce40c609136f2db88df45f17918 response_code=429
+2025-07-11 21:18:19,780 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-07-11 21:18:19,784 - core.ai_analyzer - WARNING - ⚠️ Rate limit reached for gpt-4o, trying next model
+2025-07-11 21:18:19,785 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4-turbo
+2025-07-11 21:18:21,625 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_ab5dfd9421c2eafaa54e091c84d67d45 response_code=404
+2025-07-11 21:18:21,625 - openai - INFO - error_code=model_not_found error_message='The model `gpt-4-turbo` does not exist or you do not have access to it.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-07-11 21:18:21,625 - core.ai_analyzer - INFO - ❌ Model gpt-4-turbo not available: The model `gpt-4-turbo` does not exist or you do not have access to it.
+2025-07-11 21:18:21,625 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4
+2025-07-11 21:18:23,976 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_26880ed4834855bccd33f830095d61f5 response_code=404
+2025-07-11 21:18:23,976 - openai - INFO - error_code=model_not_found error_message='The model `gpt-4` does not exist or you do not have access to it.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-07-11 21:18:23,976 - core.ai_analyzer - INFO - ❌ Model gpt-4 not available: The model `gpt-4` does not exist or you do not have access to it.
+2025-07-11 21:18:23,976 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-3.5-turbo
+2025-07-11 21:18:25,060 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=req_be22c0060d723cf7cc1ea5d5972136d7 response_code=429
+2025-07-11 21:18:25,060 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-07-11 21:18:25,060 - core.ai_analyzer - WARNING - ⚠️ Rate limit reached for gpt-3.5-turbo, trying next model
+2025-07-11 21:18:25,064 - core.ai_analyzer - WARNING - ⚠️ No compatible OpenAI models available, using rule-based analysis
+2025-07-11 21:18:25,064 - main - INFO - ✅ All components initialized successfully
+2025-07-11 21:18:33,114 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 21:18:36,987 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 21:18:36,990 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-11 21:18:36,990 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 21:18:36,990 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 21:18:37,016 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-11 21:18:38,492 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=436 request_id=req_4e7319c83a639ca80a0d610fc2a6d221 response_code=200
+2025-07-11 21:18:38,492 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-11 21:18:38,492 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-11 21:18:38,492 - main - INFO - ✅ All components initialized successfully
+2025-07-11 21:19:31,170 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 21:22:03,600 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 21:22:03,619 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-11 21:22:03,619 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 21:22:03,619 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 21:22:03,643 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-11 21:22:10,768 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=430 request_id=req_16f31ec969fccd7f74f7ccfda3e56d58 response_code=200
+2025-07-11 21:22:10,776 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-11 21:22:10,776 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-11 21:22:10,776 - main - INFO - ✅ All components initialized successfully
+2025-07-11 21:32:02,702 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 21:32:14,871 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 21:32:14,871 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-11 21:32:14,871 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 21:32:14,887 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 21:32:14,904 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-11 21:32:16,105 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=221 request_id=req_aae76fe2b3e029248d40e1d6e0ab3d33 response_code=200
+2025-07-11 21:32:16,117 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-11 21:32:16,117 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-11 21:32:16,117 - main - INFO - ✅ All components initialized successfully
+2025-07-11 21:32:16,978 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-11 21:33:21,839 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-11 21:33:21,848 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-11 21:33:21,848 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-11 21:33:21,848 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-11 21:33:21,869 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-11 21:33:23,341 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=517 request_id=req_16775629dced20b0c76a0e62d363b1b0 response_code=200
+2025-07-11 21:33:23,350 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-11 21:33:23,350 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-11 21:33:23,350 - main - INFO - ✅ All components initialized successfully
+2025-07-11 21:36:35,975 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 00:15:31,279 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 00:15:31,309 - core.ai_analyzer - WARNING - ⚠️ OpenAI API key not found in environment variables
+2025-07-21 00:15:31,309 - core.ai_analyzer - INFO - Available environment variables starting with 'OPENAI': []
+2025-07-21 00:15:31,309 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 00:15:31,309 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 00:15:31,341 - core.ai_analyzer - WARNING - ⚠️ OpenAI API key not found, using rule-based analysis only
+2025-07-21 00:15:31,341 - core.ai_analyzer - INFO - 💡 To enable AI analysis, set OPENAI_API_KEY in your .env file
+2025-07-21 00:15:31,348 - main - INFO - ✅ All components initialized successfully
+2025-07-21 00:16:21,666 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 00:16:27,540 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 00:16:27,555 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 00:16:27,557 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 00:16:27,557 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 00:16:27,570 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 00:16:30,062 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=386 request_id=req_9a2c245fa000a18ee8f39e37581e3d51 response_code=200
+2025-07-21 00:16:30,090 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-21 00:16:30,090 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-21 00:16:30,091 - main - INFO - ✅ All components initialized successfully
+2025-07-21 00:16:53,392 - main - ERROR - ❌ Unhandled exception: 1 validation errors:
+  {'type': 'string_type', 'loc': ('response', 'features'), 'msg': 'Input should be a valid string', 'input': ['Environment normalization for consistent scoring', 'Standardized request headers', 'Load time normalization', 'Multiple-attempt median scoring'], 'url': 'https://errors.pydantic.dev/2.5/v/string_type'}
+
+2025-07-21 00:22:55,148 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 00:22:59,924 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 00:22:59,948 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 00:22:59,949 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 00:22:59,952 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 00:22:59,967 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 00:23:00,030 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 00:24:22,820 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 00:24:22,842 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 00:24:22,842 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 00:24:22,857 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 00:24:22,877 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 00:24:25,843 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=969 request_id=req_7daee0898edba38ca2fb33793e5c3d67 response_code=200
+2025-07-21 00:24:25,864 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-21 00:24:25,864 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-21 00:24:25,864 - main - INFO - ✅ All components initialized successfully
+2025-07-21 00:25:18,013 - main - INFO - 🔧 Starting NORMALIZED analysis for: aec.edu.in from IP: 127.0.0.1
+2025-07-21 00:25:18,014 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: aec.edu.in
+2025-07-21 00:25:18,014 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: aec.edu.in
+2025-07-21 00:25:18,015 - core.environment_normalizer - WARNING - Attempt 1 failed: aec.edu.in
+2025-07-21 00:25:18,033 - core.environment_normalizer - WARNING - Attempt 2 failed: aec.edu.in
+2025-07-21 00:25:18,034 - core.environment_normalizer - WARNING - Attempt 3 failed: aec.edu.in
+2025-07-21 00:25:18,034 - main - INFO - ✅ Normalized analysis completed for aec.edu.in in 0.02s - Score: 0.0
+2025-07-21 00:25:56,182 - main - INFO - 🔍 Validating URL: aec.edu.in from IP: 127.0.0.1
+2025-07-21 00:25:56,182 - core.validation - INFO - 🔍 Validating URL: aec.edu.in
+2025-07-21 00:25:56,560 - main - INFO - ✅ URL validation completed for: aec.edu.in
+2025-07-21 00:25:58,732 - main - INFO - 🔍 Validating URL: aec.edu.in from IP: 127.0.0.1
+2025-07-21 00:25:58,732 - core.validation - INFO - 🔍 Validating URL: aec.edu.in
+2025-07-21 00:25:59,026 - main - INFO - ✅ URL validation completed for: aec.edu.in
+2025-07-21 00:26:40,634 - main - INFO - 🔍 Validating URL: a.com from IP: 127.0.0.1
+2025-07-21 00:26:40,635 - core.validation - INFO - 🔍 Validating URL: a.com
+2025-07-21 00:26:40,807 - main - INFO - ✅ URL validation completed for: a.com
+2025-07-21 00:26:58,710 - main - INFO - 🔍 Validating URL: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 00:26:58,711 - core.validation - INFO - 🔍 Validating URL: https://www.mywishcare.com/ 
+2025-07-21 00:26:58,711 - core.validation - WARNING - ⚠️ Suspicious URL detected: https://www.mywishcare.com/
+2025-07-21 00:26:58,711 - main - INFO - ✅ URL validation completed for: https://www.mywishcare.com/ 
+2025-07-21 00:27:02,357 - main - INFO - 🔍 Validating URL: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 00:27:02,357 - core.validation - INFO - 🔍 Validating URL: https://www.mywishcare.com/ 
+2025-07-21 00:27:02,357 - core.validation - WARNING - ⚠️ Suspicious URL detected: https://www.mywishcare.com/
+2025-07-21 00:27:02,357 - main - INFO - ✅ URL validation completed for: https://www.mywishcare.com/ 
+2025-07-21 00:27:14,806 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 00:27:14,806 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-21 00:27:14,808 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-21 00:27:20,190 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-21 00:27:20,190 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 71
+2025-07-21 00:27:20,190 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 5.38s - Score: 71.0
+2025-07-21 00:27:38,389 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.aec.edu.in/  from IP: 127.0.0.1
+2025-07-21 00:27:38,389 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.aec.edu.in/ 
+2025-07-21 00:27:38,391 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.aec.edu.in/ 
+2025-07-21 00:27:38,740 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host www.aec.edu.in:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')]
+2025-07-21 00:27:38,957 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host www.aec.edu.in:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')]
+2025-07-21 00:27:39,185 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host www.aec.edu.in:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')]
+2025-07-21 00:27:39,185 - main - INFO - ✅ Normalized analysis completed for https://www.aec.edu.in/  in 0.80s - Score: 0.0
+2025-07-21 00:27:49,094 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://aec.edu.in/  from IP: 127.0.0.1
+2025-07-21 00:27:49,094 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://aec.edu.in/ 
+2025-07-21 00:27:49,094 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://aec.edu.in/ 
+2025-07-21 00:27:49,306 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host aec.edu.in:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')]
+2025-07-21 00:27:49,615 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host aec.edu.in:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')]
+2025-07-21 00:27:49,915 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host aec.edu.in:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')]
+2025-07-21 00:27:49,915 - main - INFO - ✅ Normalized analysis completed for https://aec.edu.in/  in 0.82s - Score: 0.0
+2025-07-21 00:28:10,906 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:28:10,909 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:28:10,910 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:28:15,122 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:28:15,122 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 54
+2025-07-21 00:28:15,122 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 4.22s - Score: 54.0
+2025-07-21 00:28:34,370 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com/ from IP: 127.0.0.1
+2025-07-21 00:28:34,371 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com/
+2025-07-21 00:28:34,371 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com/
+2025-07-21 00:28:39,091 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com/
+2025-07-21 00:28:39,096 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 75
+2025-07-21 00:28:39,096 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com/ in 4.73s - Score: 75.0
+2025-07-21 00:28:49,504 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:28:49,505 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:28:49,512 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:28:54,756 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:28:54,756 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 52
+2025-07-21 00:28:54,756 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=53.0, std_dev=1.41, variance=2.0
+2025-07-21 00:28:54,766 - main - INFO - ✅ Good score consistency maintained: ±1.41
+2025-07-21 00:28:54,766 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 5.25s - Score: 52.0
+2025-07-21 00:29:00,144 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:29:00,144 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:29:00,145 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:29:03,355 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:29:03,355 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 54
+2025-07-21 00:29:03,355 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=53.3, std_dev=1.15, variance=2.0
+2025-07-21 00:29:03,355 - main - INFO - ✅ Good score consistency maintained: ±1.15
+2025-07-21 00:29:03,355 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 3.21s - Score: 54.0
+2025-07-21 00:29:07,207 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:29:07,209 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:29:07,210 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:29:10,606 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:29:10,614 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 54
+2025-07-21 00:29:10,614 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=53.5, std_dev=1.00, variance=2.0
+2025-07-21 00:29:10,614 - main - INFO - ✅ Good score consistency maintained: ±1.00
+2025-07-21 00:29:10,614 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 3.41s - Score: 54.0
+2025-07-21 00:29:13,942 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:29:13,942 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:29:13,942 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:29:17,417 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:29:17,417 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 52
+2025-07-21 00:29:17,421 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=53.2, std_dev=1.10, variance=2.0
+2025-07-21 00:29:17,421 - main - INFO - ✅ Good score consistency maintained: ±1.10
+2025-07-21 00:29:17,421 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 3.48s - Score: 52.0
+2025-07-21 00:29:35,270 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com/ from IP: 127.0.0.1
+2025-07-21 00:29:35,272 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com/
+2025-07-21 00:29:35,272 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com/
+2025-07-21 00:29:38,888 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com/
+2025-07-21 00:29:38,900 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 75
+2025-07-21 00:29:38,900 - main - INFO - 📊 Score consistency for https://www.plixlife.com/: avg=75.0, std_dev=0.00, variance=0.0
+2025-07-21 00:29:38,900 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 00:29:38,904 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com/ in 3.63s - Score: 75.0
+2025-07-21 00:29:50,642 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.a.com/ from IP: 127.0.0.1
+2025-07-21 00:29:50,642 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.a.com/
+2025-07-21 00:29:50,642 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.a.com/
+2025-07-21 00:29:50,805 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 00:29:50,805 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 00:29:50,805 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 00:29:50,805 - main - INFO - ✅ Normalized analysis completed for https://www.a.com/ in 0.16s - Score: 0.0
+2025-07-21 00:29:54,117 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.a.com/ from IP: 127.0.0.1
+2025-07-21 00:29:54,117 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.a.com/
+2025-07-21 00:29:54,118 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.a.com/
+2025-07-21 00:29:54,120 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 00:29:54,120 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 00:29:54,126 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 00:29:54,126 - main - INFO - 📊 Score consistency for https://www.a.com/: avg=0.0, std_dev=0.00, variance=0.0
+2025-07-21 00:29:54,126 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 00:29:54,126 - main - INFO - ✅ Normalized analysis completed for https://www.a.com/ in 0.01s - Score: 0.0
+2025-07-21 00:32:22,769 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.a.com/ from IP: 127.0.0.1
+2025-07-21 00:32:22,769 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.a.com/
+2025-07-21 00:32:22,771 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.a.com/
+2025-07-21 00:32:22,801 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 00:32:22,802 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 00:32:22,802 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 00:32:22,802 - main - INFO - 📊 Score consistency for https://www.a.com/: avg=0.0, std_dev=0.00, variance=0.0
+2025-07-21 00:32:22,802 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 00:32:22,802 - main - INFO - ✅ Normalized analysis completed for https://www.a.com/ in 0.03s - Score: 0.0
+2025-07-21 00:34:26,154 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 00:35:27,730 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 00:35:27,741 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 00:35:27,741 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 00:35:27,742 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 00:35:27,754 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 00:35:30,321 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=838 request_id=req_7e49a350ac7f9af879ad9b21203a632c response_code=200
+2025-07-21 00:35:30,326 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-21 00:35:30,326 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-21 00:35:30,326 - main - INFO - ✅ All components initialized successfully
+2025-07-21 00:43:55,472 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 00:43:55,475 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-21 00:43:55,476 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-21 00:44:15,919 - core.environment_normalizer - WARNING - Attempt 3 failed: 
+2025-07-21 00:44:15,922 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-21 00:44:15,924 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 66
+2025-07-21 00:44:15,929 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 20.46s - Score: 66.0
+2025-07-21 00:46:00,725 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 00:46:00,725 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-21 00:46:00,727 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-21 00:46:08,419 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-21 00:46:08,421 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 68
+2025-07-21 00:46:08,423 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=67.0, std_dev=1.41, variance=2.0
+2025-07-21 00:46:08,424 - main - INFO - ✅ Good score consistency maintained: ±1.41
+2025-07-21 00:46:08,424 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 7.70s - Score: 68.0
+2025-07-21 00:46:12,829 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 00:46:12,830 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-21 00:46:12,831 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-21 00:46:19,898 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-21 00:46:19,899 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 68
+2025-07-21 00:46:19,899 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=67.3, std_dev=1.15, variance=2.0
+2025-07-21 00:46:19,900 - main - INFO - ✅ Good score consistency maintained: ±1.15
+2025-07-21 00:46:19,900 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 7.07s - Score: 68.0
+2025-07-21 00:46:25,477 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 00:46:25,478 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-21 00:46:25,478 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-21 00:46:31,404 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-21 00:46:31,405 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 68
+2025-07-21 00:46:31,405 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=67.5, std_dev=1.00, variance=2.0
+2025-07-21 00:46:31,406 - main - INFO - ✅ Good score consistency maintained: ±1.00
+2025-07-21 00:46:31,406 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 5.93s - Score: 68.0
+2025-07-21 00:46:52,360 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 00:46:52,360 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-21 00:46:52,360 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-21 00:46:58,699 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-21 00:46:58,699 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 68
+2025-07-21 00:46:58,700 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=67.6, std_dev=0.89, variance=2.0
+2025-07-21 00:46:58,700 - main - INFO - ✅ Good score consistency maintained: ±0.89
+2025-07-21 00:46:58,700 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 6.34s - Score: 68.0
+2025-07-21 00:50:09,922 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:50:09,923 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:50:09,923 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:50:14,911 - core.environment_normalizer - WARNING - Attempt 1 failed: Connection timeout to host https://teesbyamala.com/
+2025-07-21 00:50:20,478 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:50:20,478 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 49
+2025-07-21 00:50:20,479 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 10.56s - Score: 49.0
+2025-07-21 00:50:44,693 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:50:44,694 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:50:44,694 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:50:55,999 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:50:56,000 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 47
+2025-07-21 00:50:56,001 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=48.0, std_dev=1.41, variance=2.0
+2025-07-21 00:50:56,002 - main - INFO - ✅ Good score consistency maintained: ±1.41
+2025-07-21 00:50:56,002 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 11.31s - Score: 47.0
+2025-07-21 00:52:33,407 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:52:33,409 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:52:33,409 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:52:40,894 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:52:40,896 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 52
+2025-07-21 00:52:40,897 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=49.3, std_dev=2.52, variance=5.0
+2025-07-21 00:52:40,898 - main - INFO - ✅ Good score consistency maintained: ±2.52
+2025-07-21 00:52:40,898 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 7.49s - Score: 52.0
+2025-07-21 00:52:44,116 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:52:44,117 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:52:44,117 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:52:53,675 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:52:53,676 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 47
+2025-07-21 00:52:53,678 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=48.8, std_dev=2.36, variance=5.0
+2025-07-21 00:52:53,678 - main - INFO - ✅ Good score consistency maintained: ±2.36
+2025-07-21 00:52:53,679 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 9.56s - Score: 47.0
+2025-07-21 00:53:14,358 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:53:14,359 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:53:14,359 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:53:20,476 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:53:20,476 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 52
+2025-07-21 00:53:20,476 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=49.4, std_dev=2.51, variance=5.0
+2025-07-21 00:53:20,477 - main - INFO - ✅ Good score consistency maintained: ±2.51
+2025-07-21 00:53:20,477 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 6.12s - Score: 52.0
+2025-07-21 00:58:43,583 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:58:43,592 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:58:43,595 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:58:48,472 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:58:48,473 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 52
+2025-07-21 00:58:48,477 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=49.8, std_dev=2.48, variance=5.0
+2025-07-21 00:58:48,477 - main - INFO - ✅ Good score consistency maintained: ±2.48
+2025-07-21 00:58:48,478 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 4.89s - Score: 52.0
+2025-07-21 00:59:37,600 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:59:37,606 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:59:37,607 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:59:45,498 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:59:45,498 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 52
+2025-07-21 00:59:45,500 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=50.1, std_dev=2.41, variance=5.0
+2025-07-21 00:59:45,501 - main - INFO - ✅ Good score consistency maintained: ±2.41
+2025-07-21 00:59:45,501 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 7.90s - Score: 52.0
+2025-07-21 00:59:47,976 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 00:59:47,978 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 00:59:47,978 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 00:59:54,470 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 00:59:54,471 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 49
+2025-07-21 00:59:54,472 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=50.0, std_dev=2.27, variance=5.0
+2025-07-21 00:59:54,473 - main - INFO - ✅ Good score consistency maintained: ±2.27
+2025-07-21 00:59:54,474 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 6.50s - Score: 49.0
+2025-07-21 01:21:03,371 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 01:28:44,602 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 01:28:44,614 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 01:28:44,614 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 01:28:44,615 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 01:28:44,626 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 01:28:46,555 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=413 request_id=req_6feefacab4d931132ec20136ae749bd5 response_code=200
+2025-07-21 01:28:46,562 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-21 01:28:46,563 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-21 01:28:46,563 - main - INFO - ✅ All components initialized successfully
+2025-07-21 01:29:40,255 - main - INFO - 🔧 Starting NORMALIZED analysis for: aec.edu.in from IP: 127.0.0.1
+2025-07-21 01:29:40,255 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: aec.edu.in
+2025-07-21 01:29:40,256 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: aec.edu.in
+2025-07-21 01:29:40,257 - core.environment_normalizer - WARNING - Attempt 1 failed: aec.edu.in
+2025-07-21 01:29:40,257 - core.environment_normalizer - WARNING - Attempt 2 failed: aec.edu.in
+2025-07-21 01:29:40,257 - core.environment_normalizer - WARNING - Attempt 3 failed: aec.edu.in
+2025-07-21 01:29:40,259 - main - INFO - ✅ Normalized analysis completed for aec.edu.in in 0.00s - Score: 0.0
+2025-07-21 01:29:44,442 - main - INFO - 🔧 Starting NORMALIZED analysis for: aec.edu.in from IP: 127.0.0.1
+2025-07-21 01:29:44,443 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: aec.edu.in
+2025-07-21 01:29:44,443 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: aec.edu.in
+2025-07-21 01:29:44,444 - core.environment_normalizer - WARNING - Attempt 1 failed: aec.edu.in
+2025-07-21 01:29:44,444 - core.environment_normalizer - WARNING - Attempt 2 failed: aec.edu.in
+2025-07-21 01:29:44,445 - core.environment_normalizer - WARNING - Attempt 3 failed: aec.edu.in
+2025-07-21 01:29:44,446 - main - INFO - 📊 Score consistency for aec.edu.in: avg=0.0, std_dev=0.00, variance=0.0
+2025-07-21 01:29:44,446 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 01:29:44,446 - main - INFO - ✅ Normalized analysis completed for aec.edu.in in 0.00s - Score: 0.0
+2025-07-21 01:29:45,794 - main - INFO - 🔧 Starting NORMALIZED analysis for: aec.edu.in from IP: 127.0.0.1
+2025-07-21 01:29:45,795 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: aec.edu.in
+2025-07-21 01:29:45,795 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: aec.edu.in
+2025-07-21 01:29:45,795 - core.environment_normalizer - WARNING - Attempt 1 failed: aec.edu.in
+2025-07-21 01:29:45,796 - core.environment_normalizer - WARNING - Attempt 2 failed: aec.edu.in
+2025-07-21 01:29:45,796 - core.environment_normalizer - WARNING - Attempt 3 failed: aec.edu.in
+2025-07-21 01:29:45,798 - main - INFO - 📊 Score consistency for aec.edu.in: avg=0.0, std_dev=0.00, variance=0.0
+2025-07-21 01:29:45,798 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 01:29:45,798 - main - INFO - ✅ Normalized analysis completed for aec.edu.in in 0.00s - Score: 0.0
+2025-07-21 01:30:04,740 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 01:30:04,740 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-21 01:30:04,740 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-21 01:30:07,225 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-21 01:30:07,226 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-21 01:30:07,226 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 2.49s - Score: 73.0
+2025-07-21 01:30:12,512 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 01:30:12,512 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-21 01:30:12,512 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-21 01:30:16,385 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-21 01:30:16,386 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 71
+2025-07-21 01:30:16,387 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=72.0, std_dev=1.41, variance=2.0
+2025-07-21 01:30:16,387 - main - INFO - ✅ Good score consistency maintained: ±1.41
+2025-07-21 01:30:16,387 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 3.87s - Score: 71.0
+2025-07-21 01:30:24,290 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 01:30:24,290 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-21 01:30:24,291 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-21 01:30:29,122 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-21 01:30:29,122 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 71
+2025-07-21 01:30:29,123 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=71.7, std_dev=1.15, variance=2.0
+2025-07-21 01:30:29,124 - main - INFO - ✅ Good score consistency maintained: ±1.15
+2025-07-21 01:30:29,124 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 4.83s - Score: 71.0
+2025-07-21 01:30:31,928 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 01:30:31,928 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-21 01:30:31,929 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-21 01:30:38,220 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-21 01:30:38,220 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 71
+2025-07-21 01:30:38,221 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=71.5, std_dev=1.00, variance=2.0
+2025-07-21 01:30:38,222 - main - INFO - ✅ Good score consistency maintained: ±1.00
+2025-07-21 01:30:38,222 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 6.29s - Score: 71.0
+2025-07-21 01:30:48,472 - main - INFO - 🔍 Starting STANDARD analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 01:30:48,472 - core.validation - INFO - 🔍 Validating URL: https://www.mywishcare.com/ 
+2025-07-21 01:30:48,473 - core.validation - WARNING - ⚠️ Suspicious URL detected: https://www.mywishcare.com/
+2025-07-21 01:30:49,765 - main - INFO - 🔍 Starting STANDARD analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 01:30:49,765 - core.validation - INFO - 🔍 Validating URL: https://www.mywishcare.com/ 
+2025-07-21 01:30:49,765 - core.validation - WARNING - ⚠️ Suspicious URL detected: https://www.mywishcare.com/
+2025-07-21 01:30:57,237 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-21 01:30:57,237 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-21 01:30:57,237 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-21 01:31:01,537 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-21 01:31:01,537 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 71
+2025-07-21 01:31:01,538 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=71.4, std_dev=0.89, variance=2.0
+2025-07-21 01:31:01,538 - main - INFO - ✅ Good score consistency maintained: ±0.89
+2025-07-21 01:31:01,538 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 4.30s - Score: 71.0
+2025-07-21 01:33:06,797 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 01:33:06,798 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 01:33:06,798 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 01:33:09,442 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 01:33:09,442 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 54
+2025-07-21 01:33:09,442 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 2.65s - Score: 54.0
+2025-07-21 01:33:15,725 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 01:33:15,725 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 01:33:15,726 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 01:33:17,792 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 01:33:17,793 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 54
+2025-07-21 01:33:17,793 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=54.0, std_dev=0.00, variance=0.0
+2025-07-21 01:33:17,793 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 01:33:17,794 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 2.07s - Score: 54.0
+2025-07-21 01:33:22,969 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-21 01:33:22,970 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-21 01:33:22,970 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-21 01:33:25,271 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-21 01:33:25,271 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 54
+2025-07-21 01:33:25,272 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=54.0, std_dev=0.00, variance=0.0
+2025-07-21 01:33:25,272 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 01:33:25,272 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 2.30s - Score: 54.0
+2025-07-21 01:33:50,685 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com/ from IP: 127.0.0.1
+2025-07-21 01:33:50,685 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com/
+2025-07-21 01:33:50,685 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com/
+2025-07-21 01:33:53,872 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com/
+2025-07-21 01:33:53,872 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 77
+2025-07-21 01:33:53,874 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com/ in 3.19s - Score: 77.0
+2025-07-21 01:33:57,336 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com/ from IP: 127.0.0.1
+2025-07-21 01:33:57,336 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com/
+2025-07-21 01:33:57,337 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com/
+2025-07-21 01:34:01,391 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com/
+2025-07-21 01:34:01,392 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 77
+2025-07-21 01:34:01,392 - main - INFO - 📊 Score consistency for https://www.plixlife.com/: avg=77.0, std_dev=0.00, variance=0.0
+2025-07-21 01:34:01,393 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 01:34:01,393 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com/ in 4.06s - Score: 77.0
+2025-07-21 01:34:04,049 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com/ from IP: 127.0.0.1
+2025-07-21 01:34:04,049 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com/
+2025-07-21 01:34:04,049 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com/
+2025-07-21 01:34:07,086 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com/
+2025-07-21 01:34:07,087 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 77
+2025-07-21 01:34:07,087 - main - INFO - 📊 Score consistency for https://www.plixlife.com/: avg=77.0, std_dev=0.00, variance=0.0
+2025-07-21 01:34:07,088 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 01:34:07,088 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com/ in 3.04s - Score: 77.0
+2025-07-21 01:34:09,322 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com/ from IP: 127.0.0.1
+2025-07-21 01:34:09,322 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com/
+2025-07-21 01:34:09,322 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com/
+2025-07-21 01:34:12,361 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com/
+2025-07-21 01:34:12,361 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 77
+2025-07-21 01:34:12,362 - main - INFO - 📊 Score consistency for https://www.plixlife.com/: avg=77.0, std_dev=0.00, variance=0.0
+2025-07-21 01:34:12,362 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 01:34:12,362 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com/ in 3.04s - Score: 77.0
+2025-07-21 01:34:20,277 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com from IP: 127.0.0.1
+2025-07-21 01:34:20,277 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com
+2025-07-21 01:34:20,277 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com
+2025-07-21 01:34:24,216 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com
+2025-07-21 01:34:24,217 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 75
+2025-07-21 01:34:24,217 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com in 3.94s - Score: 75.0
+2025-07-21 01:34:29,177 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com from IP: 127.0.0.1
+2025-07-21 01:34:29,177 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com
+2025-07-21 01:34:29,178 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com
+2025-07-21 01:34:31,898 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com
+2025-07-21 01:34:31,899 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 77
+2025-07-21 01:34:31,900 - main - INFO - 📊 Score consistency for https://www.plixlife.com: avg=76.0, std_dev=1.41, variance=2.0
+2025-07-21 01:34:31,900 - main - INFO - ✅ Good score consistency maintained: ±1.41
+2025-07-21 01:34:31,900 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com in 2.72s - Score: 77.0
+2025-07-21 01:34:34,202 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com from IP: 127.0.0.1
+2025-07-21 01:34:34,203 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com
+2025-07-21 01:34:34,203 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com
+2025-07-21 01:34:36,709 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com
+2025-07-21 01:34:36,709 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 77
+2025-07-21 01:34:36,710 - main - INFO - 📊 Score consistency for https://www.plixlife.com: avg=76.3, std_dev=1.15, variance=2.0
+2025-07-21 01:34:36,710 - main - INFO - ✅ Good score consistency maintained: ±1.15
+2025-07-21 01:34:36,710 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com in 2.51s - Score: 77.0
+2025-07-21 01:34:41,326 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com from IP: 127.0.0.1
+2025-07-21 01:34:41,327 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com
+2025-07-21 01:34:41,327 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com
+2025-07-21 01:34:45,847 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com
+2025-07-21 01:34:45,847 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 75
+2025-07-21 01:34:45,848 - main - INFO - 📊 Score consistency for https://www.plixlife.com: avg=76.0, std_dev=1.15, variance=2.0
+2025-07-21 01:34:45,848 - main - INFO - ✅ Good score consistency maintained: ±1.15
+2025-07-21 01:34:45,849 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com in 4.52s - Score: 75.0
+2025-07-21 01:38:09,371 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com from IP: 127.0.0.1
+2025-07-21 01:38:09,372 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com
+2025-07-21 01:38:09,372 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com
+2025-07-21 01:38:12,024 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com
+2025-07-21 01:38:12,025 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 77
+2025-07-21 01:38:12,025 - main - INFO - 📊 Score consistency for https://www.plixlife.com: avg=76.2, std_dev=1.10, variance=2.0
+2025-07-21 01:38:12,025 - main - INFO - ✅ Good score consistency maintained: ±1.10
+2025-07-21 01:38:12,025 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com in 2.65s - Score: 77.0
+2025-07-21 01:38:16,168 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com from IP: 127.0.0.1
+2025-07-21 01:38:16,169 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com
+2025-07-21 01:38:16,169 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com
+2025-07-21 01:38:21,772 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com
+2025-07-21 01:38:21,772 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 75
+2025-07-21 01:38:21,773 - main - INFO - 📊 Score consistency for https://www.plixlife.com: avg=76.0, std_dev=1.10, variance=2.0
+2025-07-21 01:38:21,774 - main - INFO - ✅ Good score consistency maintained: ±1.10
+2025-07-21 01:38:21,775 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com in 5.61s - Score: 75.0
+2025-07-21 01:38:42,224 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 01:38:56,161 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 01:38:56,171 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 01:38:56,172 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 01:38:56,173 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 01:38:56,191 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 01:38:58,035 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=414 request_id=req_5052d1bd891108eac656d334468faf06 response_code=200
+2025-07-21 01:38:58,041 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-21 01:38:58,041 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-21 01:38:58,042 - main - INFO - ✅ All components initialized successfully
+2025-07-21 01:41:14,502 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 01:41:24,964 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 01:41:24,976 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 01:41:24,976 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 01:41:24,977 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 01:41:24,997 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 01:41:26,138 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=291 request_id=req_1de47d9f193e1e676f2092315d8b915d response_code=200
+2025-07-21 01:41:26,142 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-21 01:41:26,143 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-21 01:41:26,143 - main - INFO - ✅ All components initialized successfully
+2025-07-21 01:43:59,504 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 01:44:01,191 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 01:44:01,201 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 01:44:01,201 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 01:44:01,202 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 01:44:01,211 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 01:44:12,354 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=242 request_id=req_4f8687173190909220a4b8cd14739d92 response_code=200
+2025-07-21 01:44:21,582 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-21 01:44:21,582 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-21 01:44:21,582 - main - INFO - ✅ All components initialized successfully
+2025-07-21 01:44:21,583 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 01:44:23,148 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 01:44:23,158 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 01:44:23,158 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 01:44:23,159 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 01:44:23,168 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 01:44:28,156 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=364 request_id=req_4b36db7cd5f7a65947ec017ea8a28f86 response_code=200
+2025-07-21 01:44:28,159 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-21 01:44:28,160 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-21 01:44:28,160 - main - INFO - ✅ All components initialized successfully
+2025-07-21 01:44:29,767 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 01:44:31,479 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 01:44:31,536 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 01:44:31,545 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 01:44:31,547 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 01:44:31,561 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 01:44:37,949 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=371 request_id=req_09d45fc2656defdf6c30250cb2d75a56 response_code=200
+2025-07-21 01:44:38,869 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-21 01:44:38,870 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-21 01:44:38,870 - main - INFO - ✅ All components initialized successfully
+2025-07-21 01:45:19,733 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 01:45:21,433 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 01:45:21,442 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 01:45:21,442 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 01:45:21,443 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 01:45:21,453 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 01:45:24,012 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=387 request_id=req_d02d600ce684f8be0047bd17ef28cce3 response_code=200
+2025-07-21 01:45:24,016 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-21 01:45:24,016 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-21 01:45:24,016 - main - INFO - ✅ All components initialized successfully
+2025-07-21 01:45:44,117 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com from IP: 127.0.0.1
+2025-07-21 01:45:44,117 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com
+2025-07-21 01:45:44,118 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com
+2025-07-21 01:45:46,201 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com
+2025-07-21 01:45:46,202 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 77
+2025-07-21 01:45:46,204 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com in 2.09s - Score: 77.0
+2025-07-21 01:45:49,111 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com from IP: 127.0.0.1
+2025-07-21 01:45:49,112 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com
+2025-07-21 01:45:49,112 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com
+2025-07-21 01:45:51,846 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com
+2025-07-21 01:45:51,846 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 77
+2025-07-21 01:45:51,847 - main - INFO - 📊 Score consistency for https://www.plixlife.com: avg=77.0, std_dev=0.00, variance=0.0
+2025-07-21 01:45:51,847 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 01:45:51,847 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com in 2.74s - Score: 77.0
+2025-07-21 01:45:54,493 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com from IP: 127.0.0.1
+2025-07-21 01:45:54,494 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com
+2025-07-21 01:45:54,494 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com
+2025-07-21 01:45:58,260 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com
+2025-07-21 01:45:58,261 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 77
+2025-07-21 01:45:58,262 - main - INFO - 📊 Score consistency for https://www.plixlife.com: avg=77.0, std_dev=0.00, variance=0.0
+2025-07-21 01:45:58,262 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 01:45:58,262 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com in 3.77s - Score: 77.0
+2025-07-21 01:46:01,496 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com from IP: 127.0.0.1
+2025-07-21 01:46:01,496 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com
+2025-07-21 01:46:01,497 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com
+2025-07-21 01:46:03,835 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com
+2025-07-21 01:46:03,836 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 77
+2025-07-21 01:46:03,836 - main - INFO - 📊 Score consistency for https://www.plixlife.com: avg=77.0, std_dev=0.00, variance=0.0
+2025-07-21 01:46:03,836 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 01:46:03,837 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com in 2.34s - Score: 77.0
+2025-07-21 01:46:38,140 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.gharsoaps.shop/ from IP: 127.0.0.1
+2025-07-21 01:46:38,141 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.gharsoaps.shop/
+2025-07-21 01:46:38,141 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.gharsoaps.shop/
+2025-07-21 01:46:40,932 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.gharsoaps.shop/
+2025-07-21 01:46:40,932 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 74
+2025-07-21 01:46:40,933 - main - INFO - ✅ Normalized analysis completed for https://www.gharsoaps.shop/ in 2.79s - Score: 74.0
+2025-07-21 01:46:44,011 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.gharsoaps.shop/ from IP: 127.0.0.1
+2025-07-21 01:46:44,012 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.gharsoaps.shop/
+2025-07-21 01:46:44,012 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.gharsoaps.shop/
+2025-07-21 01:46:49,912 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.gharsoaps.shop/
+2025-07-21 01:46:49,912 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 72
+2025-07-21 01:46:49,913 - main - INFO - 📊 Score consistency for https://www.gharsoaps.shop/: avg=73.0, std_dev=1.41, variance=2.0
+2025-07-21 01:46:49,913 - main - INFO - ✅ Good score consistency maintained: ±1.41
+2025-07-21 01:46:49,913 - main - INFO - ✅ Normalized analysis completed for https://www.gharsoaps.shop/ in 5.90s - Score: 72.0
+2025-07-21 01:46:53,224 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.gharsoaps.shop/ from IP: 127.0.0.1
+2025-07-21 01:46:53,225 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.gharsoaps.shop/
+2025-07-21 01:46:53,225 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.gharsoaps.shop/
+2025-07-21 01:46:56,468 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.gharsoaps.shop/
+2025-07-21 01:46:56,468 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 74
+2025-07-21 01:46:56,469 - main - INFO - 📊 Score consistency for https://www.gharsoaps.shop/: avg=73.3, std_dev=1.15, variance=2.0
+2025-07-21 01:46:56,469 - main - INFO - ✅ Good score consistency maintained: ±1.15
+2025-07-21 01:46:56,469 - main - INFO - ✅ Normalized analysis completed for https://www.gharsoaps.shop/ in 3.24s - Score: 74.0
+2025-07-21 01:47:14,952 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.gharsoaps.shop/ from IP: 127.0.0.1
+2025-07-21 01:47:14,952 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.gharsoaps.shop/
+2025-07-21 01:47:14,952 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.gharsoaps.shop/
+2025-07-21 01:47:16,989 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.gharsoaps.shop/
+2025-07-21 01:47:16,990 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 74
+2025-07-21 01:47:16,992 - main - INFO - 📊 Score consistency for https://www.gharsoaps.shop/: avg=73.5, std_dev=1.00, variance=2.0
+2025-07-21 01:47:16,993 - main - INFO - ✅ Good score consistency maintained: ±1.00
+2025-07-21 01:47:16,993 - main - INFO - ✅ Normalized analysis completed for https://www.gharsoaps.shop/ in 2.04s - Score: 74.0
+2025-07-21 01:47:20,300 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.gharsoaps.shop/ from IP: 127.0.0.1
+2025-07-21 01:47:20,300 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.gharsoaps.shop/
+2025-07-21 01:47:20,301 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.gharsoaps.shop/
+2025-07-21 01:47:22,727 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.gharsoaps.shop/
+2025-07-21 01:47:22,728 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 74
+2025-07-21 01:47:22,728 - main - INFO - 📊 Score consistency for https://www.gharsoaps.shop/: avg=73.6, std_dev=0.89, variance=2.0
+2025-07-21 01:47:22,729 - main - INFO - ✅ Good score consistency maintained: ±0.89
+2025-07-21 01:47:22,729 - main - INFO - ✅ Normalized analysis completed for https://www.gharsoaps.shop/ in 2.43s - Score: 74.0
+2025-07-21 01:48:27,126 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 01:48:28,981 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 01:48:28,990 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 01:48:28,991 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 01:48:28,991 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 01:48:29,002 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 01:48:30,427 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=322 request_id=req_7b3b03d8614e7e9cbd077ecbc6fe3b75 response_code=200
+2025-07-21 01:48:30,433 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-21 01:48:30,433 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-21 01:48:30,433 - main - INFO - ✅ All components initialized successfully
+2025-07-21 01:48:44,872 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://cureskin.com/ from IP: 127.0.0.1
+2025-07-21 01:48:44,872 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://cureskin.com/
+2025-07-21 01:48:44,873 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://cureskin.com/
+2025-07-21 01:48:54,910 - core.environment_normalizer - WARNING - Attempt 1 failed: 
+2025-07-21 01:49:04,929 - core.environment_normalizer - WARNING - Attempt 2 failed: 
+2025-07-21 01:49:31,123 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 01:49:32,874 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 01:49:32,883 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 01:49:32,883 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 01:49:32,884 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 01:49:32,898 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 01:49:32,922 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 01:49:34,931 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 01:49:34,941 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 01:49:34,942 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 01:49:34,942 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 01:49:34,957 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 01:49:34,981 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-21 01:49:36,708 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-21 01:49:36,717 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-21 01:49:36,717 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-21 01:49:36,718 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-21 01:49:36,732 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-21 01:49:37,869 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=511 request_id=req_2f658dcb60f72cb2ab6b5397408de650 response_code=200
+2025-07-21 01:49:37,880 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-21 01:49:37,880 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-21 01:49:37,881 - main - INFO - ✅ All components initialized successfully
+2025-07-21 01:49:44,031 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://cureskin.com/ from IP: 127.0.0.1
+2025-07-21 01:49:44,031 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://cureskin.com/
+2025-07-21 01:49:44,032 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://cureskin.com/
+2025-07-21 01:49:47,401 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://cureskin.com/
+2025-07-21 01:49:47,401 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 81
+2025-07-21 01:49:47,402 - main - INFO - ✅ Normalized analysis completed for https://cureskin.com/ in 3.37s - Score: 81.0
+2025-07-21 01:50:02,249 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://a.com/ from IP: 127.0.0.1
+2025-07-21 01:50:02,250 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://a.com/
+2025-07-21 01:50:02,250 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://a.com/
+2025-07-21 01:50:02,433 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host a.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 01:50:02,434 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host a.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 01:50:02,435 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host a.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 01:50:02,435 - main - INFO - ✅ Normalized analysis completed for https://a.com/ in 0.19s - Score: 0.0
+2025-07-21 01:50:11,889 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://acghfvkjgbvhgx.com/ from IP: 127.0.0.1
+2025-07-21 01:50:11,890 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://acghfvkjgbvhgx.com/
+2025-07-21 01:50:11,890 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://acghfvkjgbvhgx.com/
+2025-07-21 01:50:12,031 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host acghfvkjgbvhgx.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 01:50:12,032 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host acghfvkjgbvhgx.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 01:50:12,033 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host acghfvkjgbvhgx.com:443 ssl:default [getaddrinfo failed]
+2025-07-21 01:50:12,033 - main - INFO - ✅ Normalized analysis completed for https://acghfvkjgbvhgx.com/ in 0.14s - Score: 0.0
+2025-07-21 01:50:25,016 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://a[lpkjhyutedrsxcfgvhjk.com/ from IP: 127.0.0.1
+2025-07-21 01:50:25,017 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://a[lpkjhyutedrsxcfgvhjk.com/
+2025-07-21 01:50:25,017 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://a[lpkjhyutedrsxcfgvhjk.com/
+2025-07-21 01:50:25,017 - core.environment_normalizer - WARNING - Attempt 1 failed: https://a[lpkjhyutedrsxcfgvhjk.com/
+2025-07-21 01:50:25,018 - core.environment_normalizer - WARNING - Attempt 2 failed: https://a[lpkjhyutedrsxcfgvhjk.com/
+2025-07-21 01:50:25,018 - core.environment_normalizer - WARNING - Attempt 3 failed: https://a[lpkjhyutedrsxcfgvhjk.com/
+2025-07-21 01:50:25,018 - main - INFO - ✅ Normalized analysis completed for https://a[lpkjhyutedrsxcfgvhjk.com/ in 0.00s - Score: 0.0
+2025-07-21 01:50:28,182 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://a[lpkjhyutedrsxcfgvhjk.com/ from IP: 127.0.0.1
+2025-07-21 01:50:28,183 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://a[lpkjhyutedrsxcfgvhjk.com/
+2025-07-21 01:50:28,183 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://a[lpkjhyutedrsxcfgvhjk.com/
+2025-07-21 01:50:28,183 - core.environment_normalizer - WARNING - Attempt 1 failed: https://a[lpkjhyutedrsxcfgvhjk.com/
+2025-07-21 01:50:28,184 - core.environment_normalizer - WARNING - Attempt 2 failed: https://a[lpkjhyutedrsxcfgvhjk.com/
+2025-07-21 01:50:28,193 - core.environment_normalizer - WARNING - Attempt 3 failed: https://a[lpkjhyutedrsxcfgvhjk.com/
+2025-07-21 01:50:28,194 - main - INFO - 📊 Score consistency for https://a[lpkjhyutedrsxcfgvhjk.com/: avg=0.0, std_dev=0.00, variance=0.0
+2025-07-21 01:50:28,195 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-21 01:50:28,196 - main - INFO - ✅ Normalized analysis completed for https://a[lpkjhyutedrsxcfgvhjk.com/ in 0.01s - Score: 0.0
+2025-07-21 01:52:49,310 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://cureskin.com/ from IP: 127.0.0.1
+2025-07-21 01:52:49,311 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://cureskin.com/
+2025-07-21 01:52:49,311 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://cureskin.com/
+2025-07-21 01:52:51,475 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://cureskin.com/
+2025-07-21 01:52:51,476 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 83
+2025-07-21 01:52:51,477 - main - INFO - 📊 Score consistency for https://cureskin.com/: avg=82.0, std_dev=1.41, variance=2.0
+2025-07-21 01:52:51,477 - main - INFO - ✅ Good score consistency maintained: ±1.41
+2025-07-21 01:52:51,478 - main - INFO - ✅ Normalized analysis completed for https://cureskin.com/ in 2.17s - Score: 83.0
+2025-07-21 01:54:19,663 - main - INFO - 🔍 Validating URL: https://cureskin.com/ from IP: 127.0.0.1
+2025-07-21 01:54:19,663 - core.validation - INFO - 🔍 Validating URL: https://cureskin.com/
+2025-07-21 01:54:20,181 - core.validation - WARNING - ⚠️ Google Search API not available
+2025-07-21 01:54:20,184 - core.validation - INFO - ✅ URL validation successful: https://cureskin.com/
+2025-07-21 01:54:20,184 - main - INFO - ✅ URL validation completed for: https://cureskin.com/
+2025-07-21 01:54:55,855 - main - INFO - 🔍 Validating URL: https://cureskcfghjkl;,mknbvgcfdxn.com/ from IP: 127.0.0.1
+2025-07-21 01:54:55,855 - core.validation - INFO - 🔍 Validating URL: https://cureskcfghjkl;,mknbvgcfdxn.com/
+2025-07-21 01:54:55,855 - core.validation - WARNING - ⚠️ Suspicious URL detected: https://cureskcfghjkl;,mknbvgcfdxn.com/
+2025-07-21 01:54:55,856 - main - INFO - ✅ URL validation completed for: https://cureskcfghjkl;,mknbvgcfdxn.com/
+2025-07-21 01:56:08,737 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://cureskin.com/ from IP: 127.0.0.1
+2025-07-21 01:56:08,737 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://cureskin.com/
+2025-07-21 01:56:08,738 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://cureskin.com/
+2025-07-21 01:56:12,688 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://cureskin.com/
+2025-07-21 01:56:12,689 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 81
+2025-07-21 01:56:12,690 - main - INFO - 📊 Score consistency for https://cureskin.com/: avg=81.7, std_dev=1.15, variance=2.0
+2025-07-21 01:56:12,690 - main - INFO - ✅ Good score consistency maintained: ±1.15
+2025-07-21 01:56:12,691 - main - INFO - ✅ Normalized analysis completed for https://cureskin.com/ in 3.95s - Score: 81.0
+2025-07-21 01:56:16,813 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://cureskin.com/ from IP: 127.0.0.1
+2025-07-21 01:56:16,813 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://cureskin.com/
+2025-07-21 01:56:16,813 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://cureskin.com/
+2025-07-21 01:56:19,208 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://cureskin.com/
+2025-07-21 01:56:19,208 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 83
+2025-07-21 01:56:19,209 - main - INFO - 📊 Score consistency for https://cureskin.com/: avg=82.0, std_dev=1.15, variance=2.0
+2025-07-21 01:56:19,209 - main - INFO - ✅ Good score consistency maintained: ±1.15
+2025-07-21 01:56:19,209 - main - INFO - ✅ Normalized analysis completed for https://cureskin.com/ in 2.40s - Score: 83.0
+2025-07-21 01:59:12,517 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-23 11:30:12,675 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-23 11:30:13,067 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-23 11:30:13,067 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-23 11:30:13,067 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-23 11:30:13,443 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-23 11:30:15,330 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=177 request_id=req_1b1cb415fbf4179e6f9bb6ed2e7a88b5 response_code=200
+2025-07-23 11:30:15,348 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-23 11:30:15,349 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-23 11:30:15,349 - main - INFO - ✅ All components initialized successfully
+2025-07-23 11:31:36,317 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/ from IP: 127.0.0.1
+2025-07-23 11:31:36,317 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/
+2025-07-23 11:31:36,320 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/
+2025-07-23 11:31:39,093 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/
+2025-07-23 11:31:39,093 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 76
+2025-07-23 11:31:39,095 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/ in 2.78s - Score: 76.0
+2025-07-23 11:31:56,172 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-23 13:03:34,972 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-23 13:03:35,635 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-23 13:03:35,635 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-23 13:03:35,635 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-23 13:03:36,212 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-23 13:03:40,593 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=293 request_id=req_7610f43392fd4554fb2158ffd29cefe3 response_code=200
+2025-07-23 13:03:40,610 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-23 13:03:40,610 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-23 13:03:40,610 - main - INFO - ✅ All components initialized successfully
+2025-07-23 13:05:01,496 - main - INFO - 🔍 Validating URL: https://www.com/ from IP: 127.0.0.1
+2025-07-23 13:05:01,498 - core.validation - INFO - 🔍 Validating URL: https://www.com/
+2025-07-23 13:05:02,203 - core.validation - WARNING - ⚠️ Google Search API not available
+2025-07-23 13:05:02,203 - core.validation - INFO - ✅ URL validation successful: https://www.com/
+2025-07-23 13:05:02,209 - main - INFO - ✅ URL validation completed for: https://www.com/
+2025-07-23 13:05:09,996 - main - INFO - 🔍 Validating URL: https://a.com/ from IP: 127.0.0.1
+2025-07-23 13:05:09,997 - core.validation - INFO - 🔍 Validating URL: https://a.com/
+2025-07-23 13:05:10,270 - main - INFO - ✅ URL validation completed for: https://a.com/
+2025-07-23 13:06:21,997 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://github.com/ from IP: 127.0.0.1
+2025-07-23 13:06:21,999 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://github.com/
+2025-07-23 13:06:22,000 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://github.com/
+2025-07-23 13:06:23,976 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://github.com/
+2025-07-23 13:06:23,976 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 65
+2025-07-23 13:06:23,978 - main - INFO - ✅ Normalized analysis completed for https://github.com/ in 1.98s - Score: 65.0
+2025-07-23 13:06:56,124 - main - INFO - 🔄 Starting NORMALIZED batch analysis 4577500e-ad7f-41ab-8399-37363022f3f9 for 1 URLs from IP: 127.0.0.1
+2025-07-23 13:06:56,142 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://github.com/
+2025-07-23 13:06:56,143 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://github.com/
+2025-07-23 13:06:57,772 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://github.com/
+2025-07-23 13:06:57,775 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 65
+2025-07-23 13:06:57,777 - main - INFO - ✅ Batch analysis 4577500e-ad7f-41ab-8399-37363022f3f9 completed: 1 processed, 0 failed
+2025-07-23 13:43:43,780 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-23 14:06:15,995 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-23 14:06:16,276 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-23 14:06:16,277 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-23 14:06:16,277 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-23 14:06:16,545 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-23 14:06:18,021 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=230 request_id=req_287b615b94d5a95ce5b60985b203ff2a response_code=200
+2025-07-23 14:06:18,044 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-23 14:06:18,044 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-23 14:06:18,045 - main - INFO - ✅ All components initialized successfully
+2025-07-23 14:07:12,042 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-23 14:07:12,042 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-23 14:07:12,045 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-23 14:07:13,205 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-23 14:07:13,205 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-23 14:07:13,222 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 1.18s - Score: 73.0
+2025-07-23 14:07:13,222 - main - ERROR - ❌ Analysis failed for https://www.mywishcare.com/ : 'NormalizedModuleResult' object has no attribute 'metadata'
+2025-07-23 14:13:57,251 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-23 14:14:00,294 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-23 14:14:00,639 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-23 14:14:00,639 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-23 14:14:00,639 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-23 14:14:00,961 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-07-23 14:14:00,961 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-23 14:14:01,041 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-23 14:14:25,407 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-23 14:14:25,726 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-23 14:14:25,726 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-23 14:14:25,726 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-23 14:14:26,033 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-07-23 14:14:26,037 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-23 14:14:27,123 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=338 request_id=req_67fc2d8121a7b498d657614b43a514f9 response_code=200
+2025-07-23 14:14:27,145 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-23 14:14:27,145 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-23 14:14:27,151 - main - INFO - ✅ All components initialized successfully
+2025-07-23 14:14:59,611 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-23 14:14:59,611 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-23 14:14:59,611 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-23 14:15:00,464 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-23 14:15:00,464 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-23 14:15:00,473 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 0.86s - Score: 73.0
+2025-07-23 14:16:19,134 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.a.com/  from IP: 127.0.0.1
+2025-07-23 14:16:19,134 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.a.com/ 
+2025-07-23 14:16:19,135 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.a.com/ 
+2025-07-23 14:16:20,302 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-23 14:16:20,316 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-23 14:16:20,343 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-23 14:16:20,345 - main - INFO - ✅ Normalized analysis completed for https://www.a.com/  in 1.21s - Score: 0.0
+2025-07-23 14:17:15,133 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-23 14:17:15,134 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-23 14:17:15,134 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-23 14:17:16,127 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-23 14:17:16,127 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-23 14:17:16,127 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=73.0, std_dev=0.00, variance=0.0
+2025-07-23 14:17:16,127 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-23 14:17:16,142 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 0.99s - Score: 73.0
+2025-07-23 14:24:56,735 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.a.com/  from IP: 127.0.0.1
+2025-07-23 14:24:56,735 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.a.com/ 
+2025-07-23 14:24:56,737 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.a.com/ 
+2025-07-23 14:24:57,042 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-23 14:24:57,065 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-23 14:24:57,071 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-23 14:24:57,072 - main - INFO - 📊 Score consistency for https://www.a.com/ : avg=0.0, std_dev=0.00, variance=0.0
+2025-07-23 14:24:57,072 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-23 14:24:57,072 - main - INFO - ✅ Normalized analysis completed for https://www.a.com/  in 0.34s - Score: 0.0
+2025-07-23 14:30:19,380 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-23 14:33:04,442 - main - INFO - 🚀 Starting Next-Gen Neurom AI Website Analyzer...
+2025-07-23 14:33:04,760 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-23 14:33:04,760 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-23 14:33:04,764 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-23 14:33:05,060 - core.detailed_auditor - INFO - 🔍 Next-gen detailed auditor initialized
+2025-07-23 14:33:05,060 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-23 14:33:05,832 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=336 request_id=req_c003a325b75c917f6939cc442fa70444 response_code=200
+2025-07-23 14:33:05,849 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-23 14:33:05,849 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-23 14:33:05,849 - main - INFO - ✅ All components initialized successfully - Enhanced audit capabilities ready
+2025-07-23 14:34:14,204 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/ from IP: 127.0.0.1
+2025-07-23 14:34:14,205 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/
+2025-07-23 14:34:14,205 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/
+2025-07-23 14:34:15,390 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/
+2025-07-23 14:34:15,390 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 76
+2025-07-23 14:34:15,390 - main - ERROR - ❌ Analysis failed for https://www.mywishcare.com/: 'NormalizedModuleResult' object has no attribute 'features'
+2025-07-23 14:40:51,305 - main - INFO - 🛑 Shutting down Next-Gen Neurom AI Website Analyzer...
+2025-07-23 14:48:16,120 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-23 14:48:16,397 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-23 14:48:16,397 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-23 14:48:16,397 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-23 14:48:16,678 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-07-23 14:48:16,679 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-23 14:48:19,158 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=422 request_id=req_27eeacb691d42c22653716767f85bcf8 response_code=200
+2025-07-23 14:48:19,180 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-23 14:48:19,181 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-23 14:48:19,181 - main - INFO - ✅ All components initialized successfully
+2025-07-23 14:48:44,737 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-23 14:48:44,738 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-23 14:48:44,738 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-23 14:48:48,591 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-23 14:48:48,591 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-23 14:48:48,591 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 3.85s - Score: 73.0
+2025-07-24 12:02:04,509 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-24 12:02:04,958 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-24 12:02:04,958 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-24 12:02:04,958 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-24 12:02:05,300 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-07-24 12:02:05,302 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-24 12:02:10,758 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=615 request_id=req_425f4fbc9f7ab3d507b4ec93fced3139 response_code=200
+2025-07-24 12:02:10,767 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-24 12:02:10,767 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-24 12:02:10,767 - main - INFO - ✅ All components initialized successfully
+2025-07-24 12:03:08,262 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-24 12:03:08,262 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-24 12:03:08,263 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-24 12:03:10,235 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-24 12:03:10,235 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-24 12:03:10,235 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 1.97s - Score: 73.0
+2025-07-24 12:03:54,287 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.a.com/  from IP: 127.0.0.1
+2025-07-24 12:03:54,287 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.a.com/ 
+2025-07-24 12:03:54,288 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.a.com/ 
+2025-07-24 12:03:54,610 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:03:54,678 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:03:54,726 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:03:54,726 - main - INFO - ✅ Normalized analysis completed for https://www.a.com/  in 0.44s - Score: 0.0
+2025-07-24 12:10:35,194 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-24 12:11:01,946 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-24 12:11:02,228 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-24 12:11:02,228 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-24 12:11:02,228 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-24 12:11:02,487 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-07-24 12:11:02,487 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-24 12:11:06,577 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=531 request_id=req_4b5aadfa409f1a460543047dd538b601 response_code=200
+2025-07-24 12:11:06,581 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-24 12:11:06,581 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-24 12:11:06,581 - main - INFO - ✅ All components initialized successfully
+2025-07-24 12:12:46,402 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-24 12:12:46,402 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-24 12:12:46,407 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-24 12:12:47,386 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-24 12:12:47,386 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-24 12:12:47,386 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 0.98s - Score: 73.0
+2025-07-24 12:12:57,946 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-24 12:12:57,946 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-24 12:12:57,948 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-24 12:12:59,039 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-24 12:12:59,039 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-24 12:12:59,039 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=73.0, std_dev=0.00, variance=0.0
+2025-07-24 12:12:59,039 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-24 12:12:59,039 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 1.09s - Score: 73.0
+2025-07-24 12:13:04,410 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-24 12:13:04,410 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-24 12:13:04,411 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-24 12:13:05,331 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-24 12:13:05,335 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-24 12:13:05,336 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=73.0, std_dev=0.00, variance=0.0
+2025-07-24 12:13:05,336 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-24 12:13:05,337 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 0.93s - Score: 73.0
+2025-07-24 12:13:16,224 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-24 12:13:16,224 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-24 12:13:16,224 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-24 12:13:17,237 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-24 12:13:17,237 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 54
+2025-07-24 12:13:17,239 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 1.02s - Score: 54.0
+2025-07-24 12:13:43,486 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-24 12:13:43,486 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-24 12:13:43,486 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-24 12:13:44,390 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-24 12:13:44,390 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-24 12:13:44,390 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=73.0, std_dev=0.00, variance=0.0
+2025-07-24 12:13:44,390 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-24 12:13:44,390 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 0.90s - Score: 73.0
+2025-07-24 12:14:08,246 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.a.com/  from IP: 127.0.0.1
+2025-07-24 12:14:08,247 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.a.com/ 
+2025-07-24 12:14:08,247 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.a.com/ 
+2025-07-24 12:14:11,426 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:14:11,430 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:14:11,440 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:14:11,440 - main - INFO - ✅ Normalized analysis completed for https://www.a.com/  in 3.19s - Score: 0.0
+2025-07-24 12:14:11,440 - main - WARNING - ⚠️ Analysis failed for https://www.a.com/  - generating error audit details
+2025-07-24 12:14:21,384 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.asdrfgjkgvcxszdfyhu.com/  from IP: 127.0.0.1
+2025-07-24 12:14:21,384 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.asdrfgjkgvcxszdfyhu.com/ 
+2025-07-24 12:14:21,384 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.asdrfgjkgvcxszdfyhu.com/ 
+2025-07-24 12:14:24,487 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host www.asdrfgjkgvcxszdfyhu.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:14:24,490 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host www.asdrfgjkgvcxszdfyhu.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:14:24,490 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host www.asdrfgjkgvcxszdfyhu.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:14:24,501 - main - INFO - ✅ Normalized analysis completed for https://www.asdrfgjkgvcxszdfyhu.com/  in 3.12s - Score: 0.0
+2025-07-24 12:14:24,503 - main - WARNING - ⚠️ Analysis failed for https://www.asdrfgjkgvcxszdfyhu.com/  - generating error audit details
+2025-07-24 12:15:40,247 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-24 12:15:40,247 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-24 12:15:40,247 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-24 12:15:41,164 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-24 12:15:41,164 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-24 12:15:41,164 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/ : avg=73.0, std_dev=0.00, variance=0.0
+2025-07-24 12:15:41,164 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-24 12:15:41,164 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 0.92s - Score: 73.0
+2025-07-24 12:17:19,343 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-24 12:17:19,343 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-24 12:17:19,343 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-24 12:17:20,206 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-24 12:17:20,207 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 54
+2025-07-24 12:17:20,209 - main - INFO - 📊 Score consistency for https://teesbyamala.com/: avg=54.0, std_dev=0.00, variance=0.0
+2025-07-24 12:17:20,209 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-24 12:17:20,209 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 0.87s - Score: 54.0
+2025-07-24 12:27:13,388 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-24 12:27:51,582 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-24 12:27:51,871 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-24 12:27:51,871 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-24 12:27:51,871 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-24 12:27:52,143 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-07-24 12:27:52,143 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-24 12:27:56,258 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=550 request_id=req_8a89de9722cb47e3c486752791b69d95 response_code=200
+2025-07-24 12:27:56,271 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-24 12:27:56,271 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-24 12:27:56,272 - main - INFO - ✅ All components initialized successfully
+2025-07-24 12:28:16,384 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-07-24 12:28:16,384 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-07-24 12:28:16,384 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-07-24 12:28:17,217 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-07-24 12:28:17,217 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-24 12:28:17,217 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/  in 0.83s - Score: 73.0
+2025-07-24 12:28:17,217 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.mywishcare.com/ 
+2025-07-24 12:28:19,570 - core.crawler - ERROR - ❌ All crawl strategies failed for: https://www.mywishcare.com/ 
+2025-07-24 12:28:19,570 - main - INFO - ⚠️ Using fallback features for recommendations: https://www.mywishcare.com/ 
+2025-07-24 12:29:05,027 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-24 12:29:05,027 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-24 12:29:05,027 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-24 12:29:05,633 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-24 12:29:05,633 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 54
+2025-07-24 12:29:05,633 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 0.61s - Score: 54.0
+2025-07-24 12:29:05,633 - core.crawler - INFO - 🕷️ Starting crawl for: https://teesbyamala.com/
+2025-07-24 12:29:05,848 - core.feature_extractor - INFO - 🔍 Extracting features from: https://teesbyamala.com/
+2025-07-24 12:29:06,097 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.25s
+2025-07-24 12:29:06,479 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://teesbyamala.com/
+2025-07-24 12:31:21,664 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://a.com/ from IP: 127.0.0.1
+2025-07-24 12:31:21,664 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://a.com/
+2025-07-24 12:31:21,665 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://a.com/
+2025-07-24 12:31:21,827 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host a.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:31:21,834 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host a.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:31:21,834 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host a.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:31:21,834 - main - INFO - ✅ Normalized analysis completed for https://a.com/ in 0.17s - Score: 0.0
+2025-07-24 12:31:21,834 - main - WARNING - ⚠️ Analysis failed for https://a.com/ - generating error audit details
+2025-07-24 12:31:31,912 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://afghkl.com/ from IP: 127.0.0.1
+2025-07-24 12:31:31,912 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://afghkl.com/
+2025-07-24 12:31:31,912 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://afghkl.com/
+2025-07-24 12:31:35,039 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host afghkl.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:31:35,043 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host afghkl.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:31:35,044 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host afghkl.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:31:35,044 - main - INFO - ✅ Normalized analysis completed for https://afghkl.com/ in 3.13s - Score: 0.0
+2025-07-24 12:31:35,044 - main - WARNING - ⚠️ Analysis failed for https://afghkl.com/ - generating error audit details
+2025-07-24 12:36:32,262 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-24 12:36:34,115 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-24 12:36:34,366 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-24 12:36:34,382 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-24 12:36:34,382 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-24 12:36:34,631 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-07-24 12:36:34,631 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-24 12:36:34,690 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-24 12:39:15,373 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-24 12:39:15,658 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-24 12:39:15,659 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-24 12:39:15,659 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-24 12:39:15,921 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-07-24 12:39:15,922 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-24 12:39:16,845 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=231 request_id=req_ac0f3159f77750bd5417790ff16aa1f6 response_code=200
+2025-07-24 12:39:16,857 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-24 12:39:16,857 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-24 12:39:16,857 - main - INFO - ✅ All components initialized successfully
+2025-07-24 12:39:45,863 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/ from IP: 127.0.0.1
+2025-07-24 12:39:45,863 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/
+2025-07-24 12:39:45,864 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/
+2025-07-24 12:39:46,803 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/
+2025-07-24 12:39:46,803 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 76
+2025-07-24 12:39:46,803 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/ in 0.94s - Score: 76.0
+2025-07-24 12:39:46,803 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.mywishcare.com/
+2025-07-24 12:39:47,096 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.mywishcare.com/
+2025-07-24 12:39:47,471 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.38s
+2025-07-24 12:39:47,901 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://www.mywishcare.com/
+2025-07-24 12:39:58,058 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/ from IP: 127.0.0.1
+2025-07-24 12:39:58,058 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/
+2025-07-24 12:39:58,059 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/
+2025-07-24 12:39:59,131 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/
+2025-07-24 12:39:59,131 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 76
+2025-07-24 12:39:59,131 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/: avg=76.0, std_dev=0.00, variance=0.0
+2025-07-24 12:39:59,131 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-24 12:39:59,131 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/ in 1.07s - Score: 76.0
+2025-07-24 12:39:59,131 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.mywishcare.com/
+2025-07-24 12:39:59,417 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.mywishcare.com/
+2025-07-24 12:39:59,761 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.34s
+2025-07-24 12:40:00,161 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://www.mywishcare.com/
+2025-07-24 12:40:02,701 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.mywishcare.com/ from IP: 127.0.0.1
+2025-07-24 12:40:02,701 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/
+2025-07-24 12:40:02,701 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/
+2025-07-24 12:40:03,622 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/
+2025-07-24 12:40:03,622 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 76
+2025-07-24 12:40:03,622 - main - INFO - 📊 Score consistency for https://www.mywishcare.com/: avg=76.0, std_dev=0.00, variance=0.0
+2025-07-24 12:40:03,623 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-07-24 12:40:03,623 - main - INFO - ✅ Normalized analysis completed for https://www.mywishcare.com/ in 0.92s - Score: 76.0
+2025-07-24 12:40:03,623 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.mywishcare.com/
+2025-07-24 12:40:03,984 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.mywishcare.com/
+2025-07-24 12:40:04,318 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.33s
+2025-07-24 12:40:04,667 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://www.mywishcare.com/
+2025-07-24 12:40:15,238 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://teesbyamala.com/ from IP: 127.0.0.1
+2025-07-24 12:40:15,238 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://teesbyamala.com/
+2025-07-24 12:40:15,238 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://teesbyamala.com/
+2025-07-24 12:40:15,956 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://teesbyamala.com/
+2025-07-24 12:40:15,956 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 54
+2025-07-24 12:40:15,962 - main - INFO - ✅ Normalized analysis completed for https://teesbyamala.com/ in 0.72s - Score: 54.0
+2025-07-24 12:40:15,962 - core.crawler - INFO - 🕷️ Starting crawl for: https://teesbyamala.com/
+2025-07-24 12:40:16,137 - core.feature_extractor - INFO - 🔍 Extracting features from: https://teesbyamala.com/
+2025-07-24 12:40:16,367 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.23s
+2025-07-24 12:40:16,816 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://teesbyamala.com/
+2025-07-24 12:41:37,605 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://asdfjklokiurfvgbh.com/ from IP: 127.0.0.1
+2025-07-24 12:41:37,605 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://asdfjklokiurfvgbh.com/
+2025-07-24 12:41:37,605 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://asdfjklokiurfvgbh.com/
+2025-07-24 12:41:40,694 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host asdfjklokiurfvgbh.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:41:40,700 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host asdfjklokiurfvgbh.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:41:40,708 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host asdfjklokiurfvgbh.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:41:40,708 - main - INFO - ✅ Normalized analysis completed for https://asdfjklokiurfvgbh.com/ in 3.10s - Score: 0.0
+2025-07-24 12:41:40,709 - main - WARNING - ⚠️ Analysis failed for https://asdfjklokiurfvgbh.com/ - generating error audit details
+2025-07-24 12:41:55,119 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.asdfjklokiurfvgbh.com/ from IP: 127.0.0.1
+2025-07-24 12:41:55,119 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.asdfjklokiurfvgbh.com/
+2025-07-24 12:41:55,120 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.asdfjklokiurfvgbh.com/
+2025-07-24 12:41:55,381 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host www.asdfjklokiurfvgbh.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:41:55,381 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host www.asdfjklokiurfvgbh.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:41:55,381 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host www.asdfjklokiurfvgbh.com:443 ssl:default [getaddrinfo failed]
+2025-07-24 12:41:55,397 - main - INFO - ✅ Normalized analysis completed for https://www.asdfjklokiurfvgbh.com/ in 0.28s - Score: 0.0
+2025-07-24 12:41:55,398 - main - WARNING - ⚠️ Analysis failed for https://www.asdfjklokiurfvgbh.com/ - generating error audit details
+2025-07-24 12:42:14,499 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.plixlife.com/ from IP: 127.0.0.1
+2025-07-24 12:42:14,499 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.plixlife.com/
+2025-07-24 12:42:14,499 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.plixlife.com/
+2025-07-24 12:42:15,690 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.plixlife.com/
+2025-07-24 12:42:15,690 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 77
+2025-07-24 12:42:15,690 - main - INFO - ✅ Normalized analysis completed for https://www.plixlife.com/ in 1.19s - Score: 77.0
+2025-07-24 12:42:15,690 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.plixlife.com/
+2025-07-24 12:42:16,041 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.plixlife.com/
+2025-07-24 12:42:16,409 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.37s
+2025-07-24 12:42:28,924 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://www.plixlife.com/
+2025-07-24 12:55:55,533 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
