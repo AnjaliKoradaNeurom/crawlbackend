@@ -1453,3 +1453,432 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 2025-07-24 12:42:16,409 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.37s
 2025-07-24 12:42:28,924 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://www.plixlife.com/
 2025-07-24 12:55:55,533 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-07-30 18:02:16,347 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-07-30 18:02:17,470 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-07-30 18:02:17,471 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-07-30 18:02:17,473 - core.export_manager - INFO - 📊 Export manager initialized
+2025-07-30 18:02:18,843 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-07-30 18:02:18,843 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-07-30 18:02:20,888 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=897 request_id=req_fa8e2145fc189e35b2df20aed6f9577f response_code=200
+2025-07-30 18:02:21,207 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-07-30 18:02:21,209 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-07-30 18:02:21,210 - main - INFO - ✅ All components initialized successfully
+2025-07-30 18:03:26,969 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.indianpeacock.com/ from IP: 127.0.0.1
+2025-07-30 18:03:26,977 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.indianpeacock.com/
+2025-07-30 18:03:26,977 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.indianpeacock.com/
+2025-07-30 18:03:28,799 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.indianpeacock.com/
+2025-07-30 18:03:28,804 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-07-30 18:03:28,809 - main - INFO - ✅ Normalized analysis completed for https://www.indianpeacock.com/ in 1.84s - Score: 73.0
+2025-07-30 18:03:28,810 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.indianpeacock.com/
+2025-07-30 18:03:29,598 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.indianpeacock.com/
+2025-07-30 18:03:30,247 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.65s
+2025-07-30 18:03:30,917 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://www.indianpeacock.com/
+2025-07-30 18:07:59,122 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.amazon.com/ from IP: 127.0.0.1
+2025-07-30 18:07:59,122 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.amazon.com/
+2025-07-30 18:07:59,122 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.amazon.com/
+2025-07-30 18:08:01,200 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.amazon.com/
+2025-07-30 18:08:01,203 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 61
+2025-07-30 18:08:01,205 - main - INFO - ✅ Normalized analysis completed for https://www.amazon.com/ in 2.08s - Score: 61.0
+2025-07-30 18:08:01,206 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.amazon.com/
+2025-07-30 18:08:01,504 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.amazon.com/
+2025-07-30 18:08:01,543 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.04s
+2025-07-30 18:08:44,606 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://www.amazon.com/
+2025-07-30 18:12:03,440 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://neurom.in/ from IP: 127.0.0.1
+2025-07-30 18:12:03,442 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://neurom.in/
+2025-07-30 18:12:03,444 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://neurom.in/
+2025-07-30 18:12:07,754 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://neurom.in/
+2025-07-30 18:12:07,754 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 83
+2025-07-30 18:12:07,755 - main - INFO - ✅ Normalized analysis completed for https://neurom.in/ in 4.32s - Score: 83.0
+2025-07-30 18:12:07,755 - core.crawler - INFO - 🕷️ Starting crawl for: https://neurom.in/
+2025-07-30 18:12:09,076 - core.feature_extractor - INFO - 🔍 Extracting features from: https://neurom.in/
+2025-07-30 18:12:09,411 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.33s
+2025-07-30 18:12:12,055 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://neurom.in/
+2025-07-30 18:14:15,461 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-08-01 19:47:43,484 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-08-01 19:47:43,783 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-08-01 19:47:43,784 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-08-01 19:47:43,784 - core.export_manager - INFO - 📊 Export manager initialized
+2025-08-01 19:47:44,067 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-08-01 19:47:44,067 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-08-01 19:47:49,675 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=410 request_id=req_4a8c7eeb5b13b9b170d9b61026b40569 response_code=200
+2025-08-01 19:47:49,685 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-08-01 19:47:49,686 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-08-01 19:47:49,686 - main - INFO - ✅ All components initialized successfully
+2025-08-01 19:48:30,724 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.sephora.com from IP: 127.0.0.1
+2025-08-01 19:48:30,725 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.sephora.com
+2025-08-01 19:48:30,725 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.sephora.com
+2025-08-01 19:48:31,386 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.sephora.com
+2025-08-01 19:48:31,388 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 56
+2025-08-01 19:48:31,389 - main - INFO - ✅ Normalized analysis completed for https://www.sephora.com in 0.67s - Score: 56.0
+2025-08-01 19:48:31,389 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.sephora.com
+2025-08-01 19:48:31,727 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.sephora.com
+2025-08-01 19:48:31,857 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.13s
+2025-08-01 19:48:32,055 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://www.sephora.com
+2025-08-01 19:49:17,036 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.ulta.com from IP: 127.0.0.1
+2025-08-01 19:49:17,036 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.ulta.com
+2025-08-01 19:49:17,036 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.ulta.com
+2025-08-01 19:49:23,303 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.ulta.com
+2025-08-01 19:49:23,303 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 55
+2025-08-01 19:49:23,303 - main - INFO - ✅ Normalized analysis completed for https://www.ulta.com in 6.27s - Score: 55.0
+2025-08-01 19:49:23,303 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.ulta.com
+2025-08-01 19:49:24,296 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.ulta.com
+2025-08-01 19:49:25,159 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.86s
+2025-08-01 19:50:40,814 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.nykaa.com from IP: 127.0.0.1
+2025-08-01 19:50:40,814 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.nykaa.com
+2025-08-01 19:50:40,815 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.nykaa.com
+2025-08-01 19:50:41,668 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.nykaa.com
+2025-08-01 19:50:41,668 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 71
+2025-08-01 19:50:41,668 - main - INFO - ✅ Normalized analysis completed for https://www.nykaa.com in 0.85s - Score: 71.0
+2025-08-01 19:50:41,668 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.nykaa.com
+2025-08-01 19:50:41,975 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.nykaa.com
+2025-08-01 19:50:42,035 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.06s
+2025-08-01 19:50:42,868 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://www.nykaa.com
+2025-08-01 19:50:56,726 - main - INFO - 🔍 Using real crawl data for dynamic recommendations: https://www.ulta.com
+2025-08-01 19:53:58,778 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-08-01 19:54:00,736 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-08-01 19:54:01,014 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-08-01 19:54:01,014 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-08-01 19:54:01,014 - core.export_manager - INFO - 📊 Export manager initialized
+2025-08-01 19:54:01,284 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-08-01 19:54:01,284 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-08-01 19:54:03,189 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=456 request_id=req_702af96d956631cb41b2bcbaef62bcf6 response_code=200
+2025-08-01 19:54:03,208 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-08-01 19:54:03,209 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-08-01 19:54:03,211 - main - INFO - ✅ All components initialized successfully
+2025-08-01 19:54:21,236 - main - INFO - 🔧 Starting NORMALIZED analysis for: https://www.nykaa.com from IP: 127.0.0.1
+2025-08-01 19:54:21,236 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.nykaa.com
+2025-08-01 19:54:21,236 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.nykaa.com
+2025-08-01 19:54:21,903 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.nykaa.com
+2025-08-01 19:54:21,903 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 71
+2025-08-01 19:54:21,903 - main - INFO - ✅ Normalized analysis completed for https://www.nykaa.com in 0.67s - Score: 71.0
+2025-08-01 19:54:21,903 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.nykaa.com
+2025-08-01 19:54:22,147 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.nykaa.com
+2025-08-01 19:54:22,214 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.07s
+2025-08-01 19:54:22,716 - main - INFO - 🔍 Using real crawl data for dynamic recommendations (normalized path): https://www.nykaa.com
+2025-08-01 19:54:51,732 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-08-01 19:54:57,910 - main - INFO - 🚀 Starting Neurom AI Website Analyzer...
+2025-08-01 19:54:58,175 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-08-01 19:54:58,175 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-08-01 19:54:58,191 - core.export_manager - INFO - 📊 Export manager initialized
+2025-08-01 19:54:58,448 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-08-01 19:54:58,448 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-08-01 19:55:02,976 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=443 request_id=req_1e0898865b4dc4e04d7cdd1f8a4fd920 response_code=200
+2025-08-01 19:55:02,976 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-08-01 19:55:02,976 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-08-01 19:55:02,976 - main - INFO - ✅ All components initialized successfully
+2025-08-01 19:55:05,893 - main - INFO - 🛑 Shutting down Neurom AI Website Analyzer...
+2025-08-03 17:44:01,529 - main - INFO - 🚀 Starting Enhanced SEO Website Analyzer...
+2025-08-03 17:44:02,261 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-08-03 17:44:02,261 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-08-03 17:44:02,270 - core.export_manager - INFO - 📊 Export manager initialized
+2025-08-03 17:44:02,765 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-08-03 17:44:02,765 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-08-03 17:44:04,588 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=458 request_id=req_0dc6de491a3cb162aaf718cdd8a2cccf response_code=200
+2025-08-03 17:44:04,598 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-08-03 17:44:04,599 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-08-03 17:44:04,599 - main - INFO - ✅ All components initialized successfully
+2025-08-03 17:45:08,840 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.sephora.com from IP: 127.0.0.1
+2025-08-03 17:45:08,840 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.sephora.com
+2025-08-03 17:45:08,840 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.sephora.com
+2025-08-03 17:45:10,806 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.sephora.com
+2025-08-03 17:45:10,806 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 56
+2025-08-03 17:45:10,806 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.sephora.com in 1.97s - Score: 56.0
+2025-08-03 17:45:10,806 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.sephora.com
+2025-08-03 17:45:11,561 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.sephora.com
+2025-08-03 17:45:11,883 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.32s
+2025-08-03 17:45:12,722 - main - INFO - 🔍 Using real crawl data for individual scoring and dynamic recommendations: https://www.sephora.com
+2025-08-03 17:45:12,722 - main - INFO - 📊 Individual scores for https://www.sephora.com:
+2025-08-03 17:45:12,722 - main - INFO -   Crawlability: 65.0
+2025-08-03 17:45:12,724 - main - INFO -   Indexability: 100.0
+2025-08-03 17:45:12,724 - main - INFO -   Site Structure: 90.0
+2025-08-03 17:45:12,724 - main - INFO -   Robots.txt: 60.0
+2025-08-03 17:45:12,726 - main - INFO -   Canonical: 100.0
+2025-08-03 17:45:12,726 - main - INFO -   Core Web Vitals: 75.0
+2025-08-03 17:45:12,726 - main - INFO -   Mobile Friendliness: 92.0
+2025-08-03 17:45:12,726 - main - INFO -   HTTPS Security: 90.0
+2025-08-03 17:45:12,726 - main - INFO -   Broken Links: 100.0
+2025-08-03 17:45:12,726 - main - INFO -   Meta Tags & Schema: 70.0
+2025-08-03 17:45:49,175 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.nykaa.com from IP: 127.0.0.1
+2025-08-03 17:45:49,175 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.nykaa.com
+2025-08-03 17:45:49,175 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.nykaa.com
+2025-08-03 17:45:54,170 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.nykaa.com
+2025-08-03 17:45:54,170 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 71
+2025-08-03 17:45:54,170 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.nykaa.com in 4.99s - Score: 71.0
+2025-08-03 17:45:54,170 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.nykaa.com
+2025-08-03 17:45:54,616 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.nykaa.com
+2025-08-03 17:45:54,766 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.15s
+2025-08-03 17:45:57,476 - main - INFO - 🔍 Using real crawl data for individual scoring and dynamic recommendations: https://www.nykaa.com
+2025-08-03 17:45:57,476 - main - INFO - 📊 Individual scores for https://www.nykaa.com:
+2025-08-03 17:45:57,476 - main - INFO -   Crawlability: 65.0
+2025-08-03 17:45:57,476 - main - INFO -   Indexability: 100.0
+2025-08-03 17:45:57,476 - main - INFO -   Site Structure: 60.0
+2025-08-03 17:45:57,476 - main - INFO -   Robots.txt: 90.0
+2025-08-03 17:45:57,476 - main - INFO -   Canonical: 100.0
+2025-08-03 17:45:57,476 - main - INFO -   Core Web Vitals: 70.0
+2025-08-03 17:45:57,490 - main - INFO -   Mobile Friendliness: 100.0
+2025-08-03 17:45:57,490 - main - INFO -   HTTPS Security: 100.0
+2025-08-03 17:45:57,490 - main - INFO -   Broken Links: 100.0
+2025-08-03 17:45:57,490 - main - INFO -   Meta Tags & Schema: 65.0
+2025-08-03 17:47:05,274 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.sephora.com from IP: 127.0.0.1
+2025-08-03 17:47:05,274 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.sephora.com
+2025-08-03 17:47:05,274 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.sephora.com
+2025-08-03 17:47:05,701 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.sephora.com
+2025-08-03 17:47:05,706 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 56
+2025-08-03 17:47:05,707 - main - INFO - 📊 Score consistency for https://www.sephora.com: avg=56.0, std_dev=0.00, variance=0.0
+2025-08-03 17:47:05,710 - main - INFO - ✅ Good score consistency maintained: ±0.00
+2025-08-03 17:47:05,710 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.sephora.com in 0.43s - Score: 56.0
+2025-08-03 17:47:05,712 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.sephora.com
+2025-08-03 17:47:06,278 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.sephora.com
+2025-08-03 17:47:06,781 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.50s
+2025-08-03 17:47:07,178 - main - INFO - 🔍 Using real crawl data for individual scoring and dynamic recommendations: https://www.sephora.com
+2025-08-03 17:47:07,178 - main - INFO - 📊 Individual scores for https://www.sephora.com:
+2025-08-03 17:47:07,178 - main - INFO -   Crawlability: 65.0
+2025-08-03 17:47:07,178 - main - INFO -   Indexability: 100.0
+2025-08-03 17:47:07,178 - main - INFO -   Site Structure: 90.0
+2025-08-03 17:47:07,186 - main - INFO -   Robots.txt: 60.0
+2025-08-03 17:47:07,186 - main - INFO -   Canonical: 100.0
+2025-08-03 17:47:07,190 - main - INFO -   Core Web Vitals: 75.0
+2025-08-03 17:47:07,190 - main - INFO -   Mobile Friendliness: 92.0
+2025-08-03 17:47:07,190 - main - INFO -   HTTPS Security: 90.0
+2025-08-03 17:47:07,194 - main - INFO -   Broken Links: 100.0
+2025-08-03 17:47:07,194 - main - INFO -   Meta Tags & Schema: 70.0
+2025-08-03 17:48:17,419 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.a.com from IP: 127.0.0.1
+2025-08-03 17:48:17,419 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.a.com
+2025-08-03 17:48:17,421 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.a.com
+2025-08-03 17:48:18,075 - core.environment_normalizer - WARNING - Attempt 1 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-08-03 17:48:18,075 - core.environment_normalizer - WARNING - Attempt 2 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-08-03 17:48:18,089 - core.environment_normalizer - WARNING - Attempt 3 failed: Cannot connect to host www.a.com:443 ssl:default [getaddrinfo failed]
+2025-08-03 17:48:18,092 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.a.com in 0.67s - Score: 0.0
+2025-08-03 17:48:18,094 - main - WARNING - ⚠️ Analysis failed for https://www.a.com - generating error audit details and zero scores
+2025-08-03 17:48:45,807 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.zara.com from IP: 127.0.0.1
+2025-08-03 17:48:45,807 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.zara.com
+2025-08-03 17:48:45,807 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.zara.com
+2025-08-03 17:48:46,418 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.zara.com
+2025-08-03 17:48:46,420 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 56
+2025-08-03 17:48:46,420 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.zara.com in 0.61s - Score: 56.0
+2025-08-03 17:48:46,423 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.zara.com
+2025-08-03 17:48:46,758 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.zara.com
+2025-08-03 17:48:46,769 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.01s
+2025-08-03 17:48:47,022 - main - INFO - 🔍 Using real crawl data for individual scoring and dynamic recommendations: https://www.zara.com
+2025-08-03 17:48:47,022 - main - INFO - 📊 Individual scores for https://www.zara.com:
+2025-08-03 17:48:47,022 - main - INFO -   Crawlability: 75.0
+2025-08-03 17:48:47,027 - main - INFO -   Indexability: 90.0
+2025-08-03 17:48:47,029 - main - INFO -   Site Structure: 10.0
+2025-08-03 17:48:47,029 - main - INFO -   Robots.txt: 60.0
+2025-08-03 17:48:47,029 - main - INFO -   Canonical: 70.0
+2025-08-03 17:48:47,034 - main - INFO -   Core Web Vitals: 80.0
+2025-08-03 17:48:47,035 - main - INFO -   Mobile Friendliness: 60.0
+2025-08-03 17:48:47,037 - main - INFO -   HTTPS Security: 90.0
+2025-08-03 17:48:47,037 - main - INFO -   Broken Links: 100.0
+2025-08-03 17:48:47,037 - main - INFO -   Meta Tags & Schema: 5.0
+2025-08-03 17:49:35,486 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.hm.com from IP: 127.0.0.1
+2025-08-03 17:49:35,486 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.hm.com
+2025-08-03 17:49:35,486 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.hm.com
+2025-08-03 17:49:45,520 - core.environment_normalizer - WARNING - Attempt 1 failed: 
+2025-08-03 17:49:55,527 - core.environment_normalizer - WARNING - Attempt 2 failed: 
+2025-08-03 17:50:05,515 - core.environment_normalizer - WARNING - Attempt 3 failed: 
+2025-08-03 17:50:05,518 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.hm.com in 30.03s - Score: 0.0
+2025-08-03 17:50:05,518 - main - WARNING - ⚠️ Analysis failed for https://www.hm.com - generating error audit details and zero scores
+2025-08-03 17:50:47,885 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.nike.com from IP: 127.0.0.1
+2025-08-03 17:50:47,886 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.nike.com
+2025-08-03 17:50:47,886 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.nike.com
+2025-08-03 17:50:49,628 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.nike.com
+2025-08-03 17:50:49,628 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 75
+2025-08-03 17:50:49,628 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.nike.com in 1.74s - Score: 75.0
+2025-08-03 17:50:49,628 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.nike.com
+2025-08-03 17:50:50,309 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.nike.com/in/
+2025-08-03 17:50:52,208 - core.feature_extractor - INFO - ✅ Feature extraction completed in 1.90s
+2025-08-03 17:50:54,125 - main - INFO - 🔍 Using real crawl data for individual scoring and dynamic recommendations: https://www.nike.com
+2025-08-03 17:50:54,128 - main - INFO - 📊 Individual scores for https://www.nike.com:
+2025-08-03 17:50:54,128 - main - INFO -   Crawlability: 75.0
+2025-08-03 17:50:54,132 - main - INFO -   Indexability: 100.0
+2025-08-03 17:50:54,133 - main - INFO -   Site Structure: 95.0
+2025-08-03 17:50:54,135 - main - INFO -   Robots.txt: 90.0
+2025-08-03 17:50:54,137 - main - INFO -   Canonical: 100.0
+2025-08-03 17:50:54,137 - main - INFO -   Core Web Vitals: 65.0
+2025-08-03 17:50:54,141 - main - INFO -   Mobile Friendliness: 90.0
+2025-08-03 17:50:54,141 - main - INFO -   HTTPS Security: 95.0
+2025-08-03 17:50:54,141 - main - INFO -   Broken Links: 100.0
+2025-08-03 17:50:54,141 - main - INFO -   Meta Tags & Schema: 70.0
+2025-08-03 17:51:33,495 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.adidas.com from IP: 127.0.0.1
+2025-08-03 17:51:33,497 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.adidas.com
+2025-08-03 17:51:33,497 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.adidas.com
+2025-08-03 17:51:43,544 - core.environment_normalizer - WARNING - Attempt 1 failed: 
+2025-08-03 17:51:54,531 - core.environment_normalizer - WARNING - Attempt 2 failed: 
+2025-08-03 17:52:05,523 - core.environment_normalizer - WARNING - Attempt 3 failed: 
+2025-08-03 17:52:05,525 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.adidas.com in 32.03s - Score: 0.0
+2025-08-03 17:52:05,525 - main - WARNING - ⚠️ Analysis failed for https://www.adidas.com - generating error audit details and zero scores
+2025-08-03 17:52:21,666 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.uniqlo.com from IP: 127.0.0.1
+2025-08-03 17:52:21,667 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.uniqlo.com
+2025-08-03 17:52:21,667 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.uniqlo.com
+2025-08-03 17:52:32,533 - core.environment_normalizer - WARNING - Attempt 1 failed: 
+2025-08-03 17:52:43,514 - core.environment_normalizer - WARNING - Attempt 2 failed: 
+2025-08-03 17:52:53,539 - core.environment_normalizer - WARNING - Attempt 3 failed: 
+2025-08-03 17:52:53,539 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.uniqlo.com in 31.87s - Score: 0.0
+2025-08-03 17:52:53,539 - main - WARNING - ⚠️ Analysis failed for https://www.uniqlo.com - generating error audit details and zero scores
+2025-08-03 17:53:06,052 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.myntra.com from IP: 127.0.0.1
+2025-08-03 17:53:06,052 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.myntra.com
+2025-08-03 17:53:06,055 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.myntra.com
+2025-08-03 17:53:16,520 - core.environment_normalizer - WARNING - Attempt 1 failed: 
+2025-08-03 17:53:26,533 - core.environment_normalizer - WARNING - Attempt 2 failed: 
+2025-08-03 17:53:37,529 - core.environment_normalizer - WARNING - Attempt 3 failed: 
+2025-08-03 17:53:37,531 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.myntra.com in 31.48s - Score: 0.0
+2025-08-03 17:53:37,533 - main - WARNING - ⚠️ Analysis failed for https://www.myntra.com - generating error audit details and zero scores
+2025-08-03 17:55:00,489 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-08-03 17:55:00,489 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-08-03 17:55:00,489 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-08-03 17:55:01,988 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-08-03 17:55:01,988 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-08-03 17:55:01,988 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.mywishcare.com/  in 1.50s - Score: 73.0
+2025-08-03 17:55:01,988 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.mywishcare.com/ 
+2025-08-03 17:55:04,585 - core.crawler - ERROR - ❌ All crawl strategies failed for: https://www.mywishcare.com/ 
+2025-08-03 17:55:04,585 - main - INFO - ⚠️ Using fallback features for individual scoring and recommendations: https://www.mywishcare.com/ 
+2025-08-03 17:55:04,595 - main - INFO - 📊 Individual scores for https://www.mywishcare.com/ :
+2025-08-03 17:55:04,595 - main - INFO -   Crawlability: 90.0
+2025-08-03 17:55:04,595 - main - INFO -   Indexability: 100.0
+2025-08-03 17:55:04,595 - main - INFO -   Site Structure: 100.0
+2025-08-03 17:55:04,595 - main - INFO -   Robots.txt: 90.0
+2025-08-03 17:55:04,595 - main - INFO -   Canonical: 100.0
+2025-08-03 17:55:04,595 - main - INFO -   Core Web Vitals: 85.0
+2025-08-03 17:55:04,595 - main - INFO -   Mobile Friendliness: 94.0
+2025-08-03 17:55:04,595 - main - INFO -   HTTPS Security: 95.0
+2025-08-03 17:55:04,595 - main - INFO -   Broken Links: 100.0
+2025-08-03 17:55:04,611 - main - INFO -   Meta Tags & Schema: 75.0
+2025-08-03 17:55:23,090 - main - INFO - 🛑 Shutting down Enhanced SEO Website Analyzer...
+2025-08-03 17:55:34,297 - main - INFO - 🚀 Starting Enhanced SEO Website Analyzer...
+2025-08-03 17:55:34,804 - core.ai_analyzer - INFO - ✅ OpenAI API key found (length: 164)
+2025-08-03 17:55:34,804 - core.rate_limiter - INFO - 🚦 Rate limiter initialized: 100 requests per 3600 seconds
+2025-08-03 17:55:34,804 - core.export_manager - INFO - 📊 Export manager initialized
+2025-08-03 17:55:35,165 - core.detailed_auditor - INFO - 🔍 Detailed auditor initialized
+2025-08-03 17:55:35,165 - core.ai_analyzer - INFO - 🔍 Testing model: gpt-4o-mini
+2025-08-03 17:55:36,577 - openai - INFO - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=412 request_id=req_a4102354ed69158e6536d7489c115e46 response_code=200
+2025-08-03 17:55:36,600 - core.ai_analyzer - INFO - ✅ Model gpt-4o-mini is available and working
+2025-08-03 17:55:36,600 - core.ai_analyzer - INFO - ✅ OpenAI API connection successful using model: gpt-4o-mini
+2025-08-03 17:55:36,600 - main - INFO - ✅ All components initialized successfully
+2025-08-03 17:55:54,967 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.mywishcare.com/  from IP: 127.0.0.1
+2025-08-03 17:55:54,970 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.mywishcare.com/ 
+2025-08-03 17:55:54,971 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.mywishcare.com/ 
+2025-08-03 17:55:56,473 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.mywishcare.com/ 
+2025-08-03 17:55:56,473 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-08-03 17:55:56,473 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.mywishcare.com/  in 1.51s - Score: 73.0
+2025-08-03 17:55:56,476 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.mywishcare.com/ 
+2025-08-03 17:55:58,768 - core.crawler - ERROR - ❌ All crawl strategies failed for: https://www.mywishcare.com/ 
+2025-08-03 17:55:58,768 - main - INFO - ⚠️ Using fallback features for individual scoring and recommendations: https://www.mywishcare.com/ 
+2025-08-03 17:55:58,781 - main - INFO - 📊 Individual scores for https://www.mywishcare.com/ :
+2025-08-03 17:55:58,781 - main - INFO -   Crawlability: 90.0
+2025-08-03 17:55:58,783 - main - INFO -   Indexability: 100.0
+2025-08-03 17:55:58,784 - main - INFO -   Site Structure: 100.0
+2025-08-03 17:55:58,787 - main - INFO -   Robots.txt: 90.0
+2025-08-03 17:55:58,787 - main - INFO -   Canonical: 100.0
+2025-08-03 17:55:58,787 - main - INFO -   Core Web Vitals: 85.0
+2025-08-03 17:55:58,791 - main - INFO -   Mobile Friendliness: 94.0
+2025-08-03 17:55:58,791 - main - INFO -   HTTPS Security: 95.0
+2025-08-03 17:55:58,793 - main - INFO -   Broken Links: 100.0
+2025-08-03 17:55:58,795 - main - INFO -   Meta Tags & Schema: 75.0
+2025-08-03 17:56:41,687 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.zara.com from IP: 127.0.0.1
+2025-08-03 17:56:41,687 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.zara.com
+2025-08-03 17:56:41,687 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.zara.com
+2025-08-03 17:56:42,301 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.zara.com
+2025-08-03 17:56:42,307 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 56
+2025-08-03 17:56:42,307 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.zara.com in 0.62s - Score: 56.0
+2025-08-03 17:56:42,307 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.zara.com
+2025-08-03 17:56:42,449 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.zara.com
+2025-08-03 17:56:42,481 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.03s
+2025-08-03 17:56:43,070 - main - INFO - 🔍 Using real crawl data for individual scoring and dynamic recommendations: https://www.zara.com
+2025-08-03 17:56:43,077 - main - INFO - 📊 Individual scores for https://www.zara.com:
+2025-08-03 17:56:43,077 - main - INFO -   Crawlability: 75.0
+2025-08-03 17:56:43,080 - main - INFO -   Indexability: 90.0
+2025-08-03 17:56:43,080 - main - INFO -   Site Structure: 10.0
+2025-08-03 17:56:43,080 - main - INFO -   Robots.txt: 60.0
+2025-08-03 17:56:43,084 - main - INFO -   Canonical: 70.0
+2025-08-03 17:56:43,084 - main - INFO -   Core Web Vitals: 80.0
+2025-08-03 17:56:43,084 - main - INFO -   Mobile Friendliness: 60.0
+2025-08-03 17:56:43,084 - main - INFO -   HTTPS Security: 90.0
+2025-08-03 17:56:43,084 - main - INFO -   Broken Links: 100.0
+2025-08-03 17:56:43,084 - main - INFO -   Meta Tags & Schema: 5.0
+2025-08-03 17:57:44,007 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.sephora.com from IP: 127.0.0.1
+2025-08-03 17:57:44,007 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.sephora.com
+2025-08-03 17:57:44,008 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.sephora.com
+2025-08-03 17:57:45,335 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.sephora.com
+2025-08-03 17:57:45,335 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 56
+2025-08-03 17:57:45,335 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.sephora.com in 1.33s - Score: 56.0
+2025-08-03 17:57:45,335 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.sephora.com
+2025-08-03 17:57:45,717 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.sephora.com
+2025-08-03 17:57:45,992 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.27s
+2025-08-03 17:57:46,194 - main - INFO - 🔍 Using real crawl data for individual scoring and dynamic recommendations: https://www.sephora.com
+2025-08-03 17:57:46,200 - main - INFO - 📊 Individual scores for https://www.sephora.com:
+2025-08-03 17:57:46,200 - main - INFO -   Crawlability: 65.0
+2025-08-03 17:57:46,200 - main - INFO -   Indexability: 100.0
+2025-08-03 17:57:46,208 - main - INFO -   Site Structure: 90.0
+2025-08-03 17:57:46,210 - main - INFO -   Robots.txt: 60.0
+2025-08-03 17:57:46,211 - main - INFO -   Canonical: 100.0
+2025-08-03 17:57:46,211 - main - INFO -   Core Web Vitals: 75.0
+2025-08-03 17:57:46,214 - main - INFO -   Mobile Friendliness: 92.0
+2025-08-03 17:57:46,215 - main - INFO -   HTTPS Security: 90.0
+2025-08-03 17:57:46,216 - main - INFO -   Broken Links: 100.0
+2025-08-03 17:57:46,218 - main - INFO -   Meta Tags & Schema: 70.0
+2025-08-03 17:58:28,137 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.nykaa.com from IP: 127.0.0.1
+2025-08-03 17:58:28,137 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.nykaa.com
+2025-08-03 17:58:28,138 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.nykaa.com
+2025-08-03 17:58:29,061 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.nykaa.com
+2025-08-03 17:58:29,061 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 71
+2025-08-03 17:58:29,061 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.nykaa.com in 0.92s - Score: 71.0
+2025-08-03 17:58:29,061 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.nykaa.com
+2025-08-03 17:58:29,406 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.nykaa.com
+2025-08-03 17:58:29,545 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.14s
+2025-08-03 17:58:30,284 - main - INFO - 🔍 Using real crawl data for individual scoring and dynamic recommendations: https://www.nykaa.com
+2025-08-03 17:58:30,288 - main - INFO - 📊 Individual scores for https://www.nykaa.com:
+2025-08-03 17:58:30,288 - main - INFO -   Crawlability: 60.0
+2025-08-03 17:58:30,291 - main - INFO -   Indexability: 100.0
+2025-08-03 17:58:30,291 - main - INFO -   Site Structure: 60.0
+2025-08-03 17:58:30,291 - main - INFO -   Robots.txt: 90.0
+2025-08-03 17:58:30,291 - main - INFO -   Canonical: 100.0
+2025-08-03 17:58:30,297 - main - INFO -   Core Web Vitals: 65.0
+2025-08-03 17:58:30,298 - main - INFO -   Mobile Friendliness: 100.0
+2025-08-03 17:58:30,298 - main - INFO -   HTTPS Security: 100.0
+2025-08-03 17:58:30,298 - main - INFO -   Broken Links: 100.0
+2025-08-03 17:58:30,305 - main - INFO -   Meta Tags & Schema: 65.0
+2025-08-03 17:59:47,562 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.nykaa.com from IP: 127.0.0.1
+2025-08-03 17:59:47,562 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.nykaa.com
+2025-08-03 17:59:47,564 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.nykaa.com
+2025-08-03 17:59:48,557 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.nykaa.com
+2025-08-03 17:59:48,560 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 70
+2025-08-03 17:59:48,564 - main - INFO - 📊 Score consistency for https://www.nykaa.com: avg=70.5, std_dev=0.71, variance=1.0
+2025-08-03 17:59:48,564 - main - INFO - ✅ Good score consistency maintained: ±0.71
+2025-08-03 17:59:48,564 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.nykaa.com in 1.00s - Score: 70.0
+2025-08-03 17:59:48,564 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.nykaa.com
+2025-08-03 17:59:50,262 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.nykaa.com
+2025-08-03 17:59:50,535 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.27s
+2025-08-03 17:59:51,525 - main - INFO - 🔍 Using real crawl data for individual scoring and dynamic recommendations: https://www.nykaa.com
+2025-08-03 17:59:51,533 - main - INFO - 📊 Individual scores for https://www.nykaa.com:
+2025-08-03 17:59:51,536 - main - INFO -   Crawlability: 55.0
+2025-08-03 17:59:51,536 - main - INFO -   Indexability: 100.0
+2025-08-03 17:59:51,538 - main - INFO -   Site Structure: 60.0
+2025-08-03 17:59:51,539 - main - INFO -   Robots.txt: 90.0
+2025-08-03 17:59:51,539 - main - INFO -   Canonical: 100.0
+2025-08-03 17:59:51,539 - main - INFO -   Core Web Vitals: 60.0
+2025-08-03 17:59:51,539 - main - INFO -   Mobile Friendliness: 100.0
+2025-08-03 17:59:51,539 - main - INFO -   HTTPS Security: 100.0
+2025-08-03 17:59:51,539 - main - INFO -   Broken Links: 100.0
+2025-08-03 17:59:51,539 - main - INFO -   Meta Tags & Schema: 65.0
+2025-08-03 18:01:53,138 - main - INFO - 🔧 Starting ENHANCED NORMALIZED analysis for: https://www.indianpeacock.com/ from IP: 127.0.0.1
+2025-08-03 18:01:53,138 - analyzers.normalized_crawlability_analyzer - INFO - 🔧 Starting normalized crawlability analysis for: https://www.indianpeacock.com/
+2025-08-03 18:01:53,140 - core.environment_normalizer - INFO - 🔧 Starting normalized crawl for: https://www.indianpeacock.com/
+2025-08-03 18:01:54,391 - core.environment_normalizer - INFO - ✅ Normalized crawl completed for: https://www.indianpeacock.com/
+2025-08-03 18:01:54,393 - analyzers.normalized_crawlability_analyzer - INFO - ✅ Normalized crawlability analysis completed - Score: 73
+2025-08-03 18:01:54,399 - main - INFO - ✅ Enhanced normalized analysis completed for https://www.indianpeacock.com/ in 1.26s - Score: 73.0
+2025-08-03 18:01:54,401 - core.crawler - INFO - 🕷️ Starting crawl for: https://www.indianpeacock.com/
+2025-08-03 18:01:54,787 - core.feature_extractor - INFO - 🔍 Extracting features from: https://www.indianpeacock.com/
+2025-08-03 18:01:55,347 - core.feature_extractor - INFO - ✅ Feature extraction completed in 0.56s
+2025-08-03 18:01:56,115 - main - INFO - 🔍 Using real crawl data for individual scoring and dynamic recommendations: https://www.indianpeacock.com/
+2025-08-03 18:01:56,121 - main - INFO - 📊 Individual scores for https://www.indianpeacock.com/:
+2025-08-03 18:01:56,121 - main - INFO -   Crawlability: 80.0
+2025-08-03 18:01:56,124 - main - INFO -   Indexability: 100.0
+2025-08-03 18:01:56,127 - main - INFO -   Site Structure: 90.0
+2025-08-03 18:01:56,130 - main - INFO -   Robots.txt: 100.0
+2025-08-03 18:01:56,131 - main - INFO -   Canonical: 100.0
+2025-08-03 18:01:56,133 - main - INFO -   Core Web Vitals: 80.0
+2025-08-03 18:01:56,134 - main - INFO -   Mobile Friendliness: 95.0
+2025-08-03 18:01:56,134 - main - INFO -   HTTPS Security: 100.0
+2025-08-03 18:01:56,135 - main - INFO -   Broken Links: 100.0
+2025-08-03 18:01:56,137 - main - INFO -   Meta Tags & Schema: 75.0

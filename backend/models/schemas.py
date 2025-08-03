@@ -143,7 +143,7 @@ class AnalysisResult(BaseModel):
     # Configure to allow model_ fields
     model_config = ConfigDict(protected_namespaces=())
     
-    # Existing fields (unchanged)
+    # Existing fields (unchanged for backward compatibility)
     url: str
     timestamp: str
     crawlability_score: float = Field(ge=0, le=100)
@@ -152,7 +152,19 @@ class AnalysisResult(BaseModel):
     features: Dict[str, Any]
     recommendations: List[Dict[str, Any]]
     
-    # New detailed audit sections
+    # NEW: Individual scores for enhanced SEO analysis (all optional for backward compatibility)
+    individual_crawlability_score: Optional[float] = Field(default=None, ge=0, le=100, description="Individual crawlability score")
+    individual_indexability_score: Optional[float] = Field(default=None, ge=0, le=100, description="Individual indexability score")
+    individual_site_structure_score: Optional[float] = Field(default=None, ge=0, le=100, description="Individual site structure score")
+    individual_robots_txt_score: Optional[float] = Field(default=None, ge=0, le=100, description="Individual robots.txt score")
+    individual_canonical_score: Optional[float] = Field(default=None, ge=0, le=100, description="Individual canonical score")
+    individual_core_web_vitals_score: Optional[float] = Field(default=None, ge=0, le=100, description="Individual Core Web Vitals score")
+    individual_mobile_friendliness_score: Optional[float] = Field(default=None, ge=0, le=100, description="Individual mobile friendliness score")
+    individual_https_security_score: Optional[float] = Field(default=None, ge=0, le=100, description="Individual HTTPS security score")
+    individual_broken_links_score: Optional[float] = Field(default=None, ge=0, le=100, description="Individual broken links score")
+    individual_meta_tags_schema_score: Optional[float] = Field(default=None, ge=0, le=100, description="Individual meta tags and schema score")
+    
+    # Existing detailed audit sections (unchanged)
     crawlability_details: Optional[AuditDetails] = None
     indexability_details: Optional[AuditDetails] = None
     site_structure_details: Optional[AuditDetails] = None

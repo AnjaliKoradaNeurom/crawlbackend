@@ -1,5 +1,5 @@
 """
-Detailed auditor for generating comprehensive website audit results
+Detailed auditor for generating comprehensive website audit results and individual scores
 """
 
 import logging
@@ -24,6 +24,384 @@ class DetailedAuditor:
             recommendations=[]
         )
     
+    # NEW: Individual scoring methods for enhanced SEO analysis
+    def get_crawlability_score(self, features: Dict[str, Any]) -> float:
+        """Calculate individual crawlability score (0-100)"""
+        try:
+            score = 0.0
+            
+            # HTTP Status (25 points)
+            status_code = features.get('status_code', 0)
+            if status_code == 200:
+                score += 25
+            elif 200 <= status_code < 300:
+                score += 20
+            elif 300 <= status_code < 400:
+                score += 10
+            # 4xx and 5xx get 0 points
+            
+            # Page Load Time (25 points)
+            load_time = features.get('page_load_time', 0)
+            if load_time <= 1.0:
+                score += 25
+            elif load_time <= 2.0:
+                score += 20
+            elif load_time <= 3.0:
+                score += 15
+            elif load_time <= 5.0:
+                score += 10
+            else:
+                score += 5
+            
+            # HTML Size (20 points)
+            html_size = features.get('html_size', 0)
+            if html_size <= 50000:  # 50KB
+                score += 20
+            elif html_size <= 100000:  # 100KB
+                score += 15
+            elif html_size <= 500000:  # 500KB
+                score += 10
+            elif html_size <= 1000000:  # 1MB
+                score += 5
+            # Larger than 1MB gets 0 points
+            
+            # Content Quality (20 points)
+            word_count = features.get('word_count', 0)
+            if word_count >= 300:
+                score += 20
+            elif word_count >= 150:
+                score += 15
+            elif word_count >= 50:
+                score += 10
+            else:
+                score += 5
+            
+            # Compression (10 points)
+            if features.get('compression_enabled', False):
+                score += 10
+            
+            return min(score, 100.0)
+            
+        except Exception as e:
+            logger.error(f"Error calculating crawlability score: {e}")
+            return 0.0
+    
+    def get_indexability_score(self, features: Dict[str, Any]) -> float:
+        """Calculate individual indexability score (0-100)"""
+        try:
+            score = 100.0  # Start with perfect score and deduct
+            
+            # Meta robots noindex (critical - 50 points deduction)
+            if features.get('meta_robots_noindex', False):
+                score -= 50
+            
+            # Robots.txt blocking (critical - 40 points deduction)
+            if features.get('robots_txt_blocks_crawling', False):
+                score -= 40
+            
+            # HTTP status issues
+            status_code = features.get('status_code', 200)
+            if status_code == 404:
+                score -= 30
+            elif status_code >= 500:
+                score -= 25
+            elif status_code in [301, 302]:
+                score -= 10
+            
+            # Missing canonical (minor - 10 points deduction)
+            if not features.get('canonical_tag_present', False):
+                score -= 10
+            
+            return max(score, 0.0)
+            
+        except Exception as e:
+            logger.error(f"Error calculating indexability score: {e}")
+            return 0.0
+    
+    def get_site_structure_score(self, features: Dict[str, Any]) -> float:
+        """Calculate individual site structure score (0-100)"""
+        try:
+            score = 0.0
+            
+            # H1 structure (25 points)
+            h1_count = features.get('h1_count', 0)
+            if h1_count == 1:
+                score += 25
+            elif h1_count > 1:
+                score += 15
+            # No H1 gets 0 points
+            
+            # Heading hierarchy (20 points)
+            h2_count = features.get('h2_count', 0)
+            h3_count = features.get('h3_count', 0)
+            if h2_count > 0:
+                score += 15
+                if h3_count > 0:
+                    score += 5  # Bonus for proper hierarchy
+            
+            # Internal linking (30 points)
+            internal_links = features.get('internal_links_count', 0)
+            if internal_links >= 10:
+                score += 30
+            elif internal_links >= 5:
+                score += 25
+            elif internal_links >= 3:
+                score += 20
+            elif internal_links >= 1:
+                score += 15
+            # No internal links gets 0 points
+            
+            # External links balance (15 points)
+            external_links = features.get('external_links_count', 0)
+            if 1 <= external_links <= 20:
+                score += 15
+            elif external_links <= 50:
+                score += 10
+            elif external_links > 50:
+                score += 5
+            
+            # Content structure (10 points)
+            if features.get('word_count', 0) >= 300:
+                score += 10
+            elif features.get('word_count', 0) >= 150:
+                score += 5
+            
+            return min(score, 100.0)
+            
+        except Exception as e:
+            logger.error(f"Error calculating site structure score: {e}")
+            return 0.0
+    
+    def get_robots_txt_score(self, features: Dict[str, Any]) -> float:
+        """Calculate individual robots.txt score (0-100)"""
+        try:
+            score = 50.0  # Base score for having no robots.txt issues
+            
+            robots_exists = features.get('robots_txt_exists', False)
+            robots_blocks = features.get('robots_txt_blocks_crawling', False)
+            sitemap_exists = features.get('sitemap_exists', False)
+            
+            if robots_exists:
+                score += 25  # Bonus for having robots.txt
+                
+                if not robots_blocks:
+                    score += 15  # Bonus for not blocking crawling
+                else:
+                    score -= 40  # Major penalty for blocking
+                
+                if sitemap_exists:
+                    score += 10  # Bonus for sitemap reference
+            else:
+                # No robots.txt is okay, but not optimal
+                score += 10
+            
+            return max(min(score, 100.0), 0.0)
+            
+        except Exception as e:
+            logger.error(f"Error calculating robots.txt score: {e}")
+            return 50.0  # Default neutral score
+    
+    def get_canonical_score(self, features: Dict[str, Any]) -> float:
+        """Calculate individual canonical score (0-100)"""
+        try:
+            if features.get('canonical_tag_present', False):
+                return 100.0
+            else:
+                return 70.0  # Not critical, but recommended
+                
+        except Exception as e:
+            logger.error(f"Error calculating canonical score: {e}")
+            return 70.0
+    
+    def get_performance_score(self, features: Dict[str, Any]) -> float:
+        """Calculate individual Core Web Vitals/Performance score (0-100)"""
+        try:
+            score = 0.0
+            
+            # Page Load Time (40 points)
+            load_time = features.get('page_load_time', 0)
+            if load_time <= 1.0:
+                score += 40
+            elif load_time <= 2.5:
+                score += 35
+            elif load_time <= 4.0:
+                score += 25
+            elif load_time <= 6.0:
+                score += 15
+            else:
+                score += 5
+            
+            # Resource Size (25 points)
+            html_size = features.get('html_size', 0)
+            if html_size <= 50000:  # 50KB
+                score += 25
+            elif html_size <= 100000:  # 100KB
+                score += 20
+            elif html_size <= 500000:  # 500KB
+                score += 15
+            elif html_size <= 1000000:  # 1MB
+                score += 10
+            else:
+                score += 5
+            
+            # Optimization features (35 points total)
+            if features.get('compression_enabled', False):
+                score += 10
+            
+            if features.get('lazy_loading_images', 0) > 0:
+                score += 10
+            
+            if features.get('cache_headers_present', False):
+                score += 10
+            
+            # External resources penalty
+            external_scripts = features.get('external_scripts_count', 0)
+            if external_scripts <= 5:
+                score += 5
+            elif external_scripts <= 10:
+                score += 3
+            # More than 10 external scripts gets 0 points
+            
+            return min(score, 100.0)
+            
+        except Exception as e:
+            logger.error(f"Error calculating performance score: {e}")
+            return 0.0
+    
+    def get_mobile_friendliness_score(self, features: Dict[str, Any]) -> float:
+        """Calculate individual mobile friendliness score (0-100)"""
+        try:
+            score = 0.0
+            
+            # Viewport configuration (50 points)
+            if features.get('viewport_configured', False):
+                score += 50
+            
+            # Mobile friendly design (40 points)
+            if features.get('mobile_friendly', False):
+                score += 40
+            
+            # Image optimization for mobile (10 points)
+            images_count = features.get('images_count', 0)
+            lazy_images = features.get('lazy_loading_images', 0)
+            if images_count > 0 and lazy_images > 0:
+                lazy_ratio = lazy_images / images_count
+                score += lazy_ratio * 10
+            elif images_count == 0:
+                score += 10  # No images is fine for mobile
+            
+            return min(score, 100.0)
+            
+        except Exception as e:
+            logger.error(f"Error calculating mobile friendliness score: {e}")
+            return 0.0
+    
+    def get_https_security_score(self, features: Dict[str, Any]) -> float:
+        """Calculate individual HTTPS security score (0-100)"""
+        try:
+            score = 0.0
+            
+            # HTTPS enabled (40 points)
+            if features.get('https_enabled', False):
+                score += 40
+            
+            # SSL certificate valid (30 points)
+            if features.get('ssl_certificate_valid', False):
+                score += 30
+            
+            # Security headers (20 points)
+            security_headers = features.get('security_headers_count', 0)
+            if security_headers >= 5:
+                score += 20
+            elif security_headers >= 3:
+                score += 15
+            elif security_headers >= 1:
+                score += 10
+            
+            # Mixed content issues (10 points deduction)
+            mixed_content = features.get('mixed_content_issues', 0)
+            if mixed_content == 0:
+                score += 10
+            
+            return min(score, 100.0)
+            
+        except Exception as e:
+            logger.error(f"Error calculating HTTPS security score: {e}")
+            return 0.0
+    
+    def get_broken_links_score(self, features: Dict[str, Any]) -> float:
+        """Calculate individual broken links score (0-100)"""
+        try:
+            broken_links = features.get('broken_links_count', 0)
+            total_links = features.get('internal_links_count', 0) + features.get('external_links_count', 0)
+            
+            if total_links == 0:
+                return 100.0  # No links means no broken links
+            
+            if broken_links == 0:
+                return 100.0
+            
+            # Calculate percentage of working links
+            working_links = total_links - broken_links
+            score = (working_links / total_links) * 100
+            
+            return max(score, 0.0)
+            
+        except Exception as e:
+            logger.error(f"Error calculating broken links score: {e}")
+            return 100.0  # Default to perfect if we can't calculate
+    
+    def get_meta_tags_schema_score(self, features: Dict[str, Any]) -> float:
+        """Calculate individual meta tags and schema score (0-100)"""
+        try:
+            score = 0.0
+            
+            # Title tag (25 points)
+            if features.get('title_tag_present', False):
+                title_length = features.get('title_length', 0)
+                if 30 <= title_length <= 60:
+                    score += 25
+                elif title_length > 0:
+                    score += 20
+            
+            # Meta description (25 points)
+            if features.get('meta_description_present', False):
+                desc_length = features.get('meta_description_length', 0)
+                if 120 <= desc_length <= 160:
+                    score += 25
+                elif desc_length > 0:
+                    score += 20
+            
+            # Structured data (20 points)
+            if features.get('structured_data_present', False):
+                score += 20
+            
+            # Open Graph (15 points)
+            og_count = features.get('open_graph_tags_count', 0)
+            if og_count >= 4:
+                score += 15
+            elif og_count >= 2:
+                score += 10
+            elif og_count >= 1:
+                score += 5
+            
+            # Technical meta tags (15 points total)
+            if features.get('lang_attribute_present', False):
+                score += 5
+            
+            if features.get('charset_declared', False):
+                score += 5
+            
+            if features.get('twitter_cards_present', False):
+                score += 5
+            
+            return min(score, 100.0)
+            
+        except Exception as e:
+            logger.error(f"Error calculating meta tags and schema score: {e}")
+            return 0.0
+    
+    # Existing methods remain unchanged...
     def generate_crawlability_details(self, features: Dict[str, Any], crawl_result: Optional[Dict] = None, analysis_failed: bool = False) -> AuditDetails:
         """Generate crawlability audit details based on actual crawl data"""
         try:
