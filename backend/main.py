@@ -49,42 +49,29 @@ else:
 import asyncio
 import logging
 import time
-import io
 from contextlib import asynccontextmanager
-from typing import Dict, Any, List, Optional, Self
+from typing import Dict, Any, List, Optional
 from datetime import datetime
-import uuid
-import statistics
-from collections import defaultdict
 
-from fastapi import FastAPI, HTTPException, Request, BackgroundTasks, Depends
+from fastapi import FastAPI, HTTPException, Request, Depends
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse, StreamingResponse
+from fastapi.responses import JSONResponse
 from fastapi.security import HTTPBearer
-from pydantic import HttpUrl, ValidationError
+from pydantic import ValidationError
 import uvicorn
-from dotenv import load_dotenv
 
 # Import our modules
 from core.crawler import WebCrawler
 from core.feature_extractor import FeatureExtractor
 from core.ai_analyzer import AIAnalyzer
 from core.rate_limiter import RateLimiter
-from core.export_manager import ExportManager
 from core.validation import URLValidator
 from models.schemas import (
     AnalysisResult,
-    BatchAnalysisRequest,
-    BatchAnalysisResult,
-    HealthCheckResult,
     ValidationResult,
-    CrawlabilityFeatures,
 )
 from analyzers.normalized_crawlability_analyzer import NormalizedCrawlabilityAnalyzer
 from core.detailed_auditor import DetailedAuditor
-
-# Load environment variables
-# load_dotenv() # REMOVED: Handled at the top of the file
 
 # Configure logging with UTF-8 encoding
 logging.basicConfig(
@@ -102,22 +89,15 @@ crawler = None
 feature_extractor = None
 ai_analyzer = None
 rate_limiter = None
-export_manager = None
 url_validator = None
 normalized_analyzer = None
 detailed_auditor = None
-
-# Background tasks storage
-background_tasks_storage = {}
-
-# Global score tracking for consistency monitoring
-score_history = defaultdict(list)
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Application lifespan manager"""
-    global crawler, feature_extractor, ai_analyzer, rate_limiter, export_manager, url_validator, normalized_analyzer, detailed_auditor
+    global crawler, feature_extractor, ai_analyzer, rate_limiter, url_validator, normalized_analyzer, detailed_auditor
 
     logger.info("🚀 Starting Enhanced SEO Website Analyzer...")
 
@@ -127,7 +107,6 @@ async def lifespan(app: FastAPI):
         feature_extractor = FeatureExtractor()
         ai_analyzer = AIAnalyzer()
         rate_limiter = RateLimiter(max_requests=100, window_seconds=3600)
-        export_manager = ExportManager()
         url_validator = URLValidator()
         normalized_analyzer = NormalizedCrawlabilityAnalyzer()
         detailed_auditor = DetailedAuditor()
@@ -152,6 +131,8 @@ app = FastAPI(
     description="Production-grade website crawlability and SEO analysis tool with individual scoring and AI-powered insights",
     version="2.1.0-enhanced",
     lifespan=lifespan,
+    docs_url="/docs", # Explicitly enable docs
+    redoc_url=None # Disable redoc if only docs are needed
 )
 
 # CORS middleware
@@ -191,66 +172,27 @@ async def check_rate_limit(request: Request):
 
     return client_ip
 
-
-@app.get("/", response_model=Dict[str, Any])
-async def root():
-    """Root endpoint"""
-    return {
-        "message": "Enhanced SEO Website Analyzer API",
-        "version": "2.1.0-enhanced",
-        "status": "online",
-        "documentation": "/docs",
-        "features": [
-            "Individual SEO scoring for 10 categories",
-            "Environment normalization for consistent scoring",
-            "Standardized request headers",
-            "Load time normalization",
-            "Multiple-attempt median scoring",
-            "Dynamic, data-driven recommendations",
-            "Production-safe backward compatibility",
-        ],
-    }
-
-
-@app.get("/health", response_model=HealthCheckResult)
-async def health_check():
-    """Health check endpoint"""
-    try:
-        components = {
-            "crawler": crawler is not None,
-            "feature_extractor": feature_extractor is not None,
-            "ai_analyzer": ai_analyzer is not None and ai_analyzer.is_loaded,
-            "rate_limiter": rate_limiter is not None,
-            "export_manager": export_manager is not None,
-            "url_validator": url_validator is not None,
-            "normalized_analyzer": normalized_analyzer is not None,
-            "detailed_auditor": detailed_auditor is not None,
-        }
-
-        all_healthy = all(components.values())
-
-        return HealthCheckResult(
-            status="healthy" if all_healthy else "degraded",
-            timestamp=datetime.now().isoformat(),
-            version="2.1.0-enhanced",
-            components=components,
-            system_info={
-                "python_version": sys.version,
-                "platform": sys.platform,
-                "openai_available": bool(os.getenv("OPENAI_API_KEY")),
-                "google_api_available": bool(os.getenv("GOOGLE_API_KEY")),
-                "lighthouse_available": bool(os.getenv("LIGHTHOUSE_PATH")),
-                "normalization_enabled": True,
-                "individual_scoring_enabled": True,
-            },
+# NEW: Dependency to verify OpenAI API key
+async def verify_openai_key():
+    """
+    Verifies that the OpenAI API key is loaded and the AI model is ready.
+    If not, raises an HTTPException.
+    """
+    if not ai_analyzer or not ai_analyzer.is_loaded or not ai_analyzer.model:
+        logger.error("❌ OpenAI API key missing or AI model not loaded.")
+        raise HTTPException(
+            status_code=401,
+            detail={"error": "Missing or invalid OpenAI API key. Please configure it in the .env file."}
         )
-    except Exception as e:
-        logger.error(f"Health check failed: {e}")
-        raise HTTPException(status_code=500, detail="Health check failed")
+    logger.info("✅ OpenAI API key verified and AI model ready.")
 
 
 @app.post("/validate", response_model=ValidationResult)
-async def validate_url(url: str, client_ip: str = Depends(check_rate_limit)):
+async def validate_url(
+    url: str,
+    client_ip: str = Depends(check_rate_limit),
+    openai_key_verified: None = Depends(verify_openai_key)
+):
     """Validate URL and check if it's accessible"""
     try:
         logger.info(f"🔍 Validating URL: {url} from IP: {client_ip}")
@@ -271,6 +213,7 @@ async def analyze_website(
     include_lighthouse: bool = False,
     use_normalized: bool = True,
     client_ip: str = Depends(check_rate_limit),
+    openai_key_verified: None = Depends(verify_openai_key)
 ):
     """Analyze a single website with enhanced individual scoring and dynamic recommendations"""
     start_time = time.time()
@@ -303,34 +246,6 @@ async def analyze_website(
                 analysis_time=time.time() - start_time,
                 model_version="2.1.0-enhanced",
                 backend_status="online",
-            )
-
-            # Track score for consistency monitoring
-            score_history[url].append(result.crawlability_score)
-
-            # Log score statistics if we have multiple measurements
-            if len(score_history[url]) > 1:
-                scores = score_history[url][-10:]  # Last 10 scores
-                avg_score = statistics.mean(scores)
-                std_dev = statistics.stdev(scores) if len(scores) > 1 else 0
-                min_score = min(scores)
-                max_score = max(scores)
-                variance = max_score - min_score
-
-                logger.info(
-                    f"📊 Score consistency for {url}: avg={avg_score:.1f}, std_dev={std_dev:.2f}, variance={variance}"
-                )
-
-                # Alert if high variance (should be rare with normalization)
-                if std_dev > 3.0:
-                    logger.warning(
-                        f"⚠️ Unexpected score variance detected for {url}: {std_dev:.2f}"
-                    )
-                else:
-                    logger.info(f"✅ Good score consistency maintained: ±{std_dev:.2f}")
-
-            logger.info(
-                f"✅ Enhanced normalized analysis completed for {url} in {result.analysis_time:.2f}s - Score: {result.crawlability_score}"
             )
 
             # Check if analysis failed (score=0, confidence=0)
@@ -480,7 +395,7 @@ async def analyze_website(
                 result.individual_meta_tags_schema_score = detailed_auditor.get_meta_tags_schema_score(detailed_audit_features)
 
                 # Generate detailed audit sections with real data
-                result.crawlability_details = detailed_auditor.generate_crawlability_details(detailed_audit_features, analysis_failed=False)
+                result.crawlability_details = detailed_auditor.generate_crawlability_details(detailed_audit_features, crawl_result, analysis_failed=False)
                 result.indexability_details = detailed_auditor.generate_indexability_details(detailed_audit_features, analysis_failed=False)
                 result.site_structure_details = detailed_auditor.generate_site_structure_details(detailed_audit_features, analysis_failed=False)
                 result.robots_txt_details = detailed_auditor.generate_robots_txt_details(detailed_audit_features, analysis_failed=False)
@@ -746,284 +661,6 @@ def _get_score_label(score: int) -> str:
         return "Critical"
 
 
-@app.post("/analyze/batch", response_model=BatchAnalysisResult)
-async def start_batch_analysis(
-    request: BatchAnalysisRequest,
-    background_tasks: BackgroundTasks,
-    use_normalized: bool = True,
-    client_ip: str = Depends(check_rate_limit),
-):
-    """Start batch analysis of multiple URLs with enhanced individual scoring"""
-    try:
-        batch_id = str(uuid.uuid4())
-
-        logger.info(
-            f"🔄 Starting {'ENHANCED NORMALIZED' if use_normalized else 'STANDARD'} batch analysis {batch_id} for {len(request.urls)} URLs from IP: {client_ip}"
-        )
-
-        # Initialize batch result
-        batch_result = BatchAnalysisResult(
-            batch_id=batch_id,
-            status="processing",
-            total_urls=len(request.urls),
-            processed=0,
-            failed=0,
-            results=[],
-            started_at=datetime.now(),
-        )
-
-        # Store in memory (in production, use Redis or database)
-        background_tasks_storage[batch_id] = batch_result
-
-        # Start background processing
-        background_tasks.add_task(
-            process_batch_analysis,
-            batch_id,
-            [str(url) for url in request.urls],
-            use_normalized,
-        )
-
-        return batch_result
-
-    except Exception as e:
-        logger.error(f"❌ Batch analysis failed: {str(e)}")
-        raise HTTPException(status_code=500, detail=str(e))
-
-
-@app.get("/analyze/batch/{batch_id}", response_model=BatchAnalysisResult)
-async def get_batch_status(batch_id: str):
-    """Get batch analysis status"""
-    if batch_id not in background_tasks_storage:
-        raise HTTPException(status_code=404, detail="Batch not found")
-
-    return background_tasks_storage[batch_id]
-
-
-async def process_batch_analysis(
-    batch_id: str, urls: List[str], use_normalized: bool = True
-):
-    """Process batch analysis in background with individual scoring"""
-    try:
-        batch_result = background_tasks_storage[batch_id]
-
-        for url in urls:
-            try:
-                if use_normalized:
-                    # Use normalized analyzer
-                    normalized_result = await normalized_analyzer.analyze(url)
-
-                    result = AnalysisResult(
-                        url=url,
-                        timestamp=datetime.now().isoformat(),
-                        crawlability_score=normalized_result.score,
-                        confidence=normalized_result.confidence,
-                        label=_get_score_label(normalized_result.score),
-                        features={"analysis_method": "enhanced_normalized"},
-                        recommendations=[
-                            rec.dict() for rec in normalized_result.recommendations
-                        ],
-                        analysis_time=0.0,
-                        model_version="2.1.0-enhanced",
-                        backend_status="online",
-                    )
-
-                    # Add individual scores (simplified for batch processing)
-                    # In production, you might want to do full individual scoring here too
-                    result.individual_crawlability_score = normalized_result.score
-                    result.individual_indexability_score = max(0, normalized_result.score - 10)
-                    result.individual_site_structure_score = max(0, normalized_result.score - 5)
-                    result.individual_robots_txt_score = 85.0
-                    result.individual_canonical_score = 70.0
-                    result.individual_core_web_vitals_score = max(0, normalized_result.score - 15)
-                    result.individual_mobile_friendliness_score = max(0, normalized_result.score - 8)
-                    result.individual_https_security_score = 90.0 if url.startswith('https://') else 20.0
-                    result.individual_broken_links_score = 95.0
-                    result.individual_meta_tags_schema_score = max(0, normalized_result.score - 12)
-
-                    batch_result.results.append(result)
-                    batch_result.processed += 1
-
-                else:
-                    # Use standard analyzer
-                    validation_result = await url_validator.validate_url(url)
-
-                    if validation_result.is_valid:
-                        normalized_url = validation_result.normalized_url or url
-                        crawl_result = await crawler.crawl_website(normalized_url)
-
-                        if crawl_result.get("success", False):
-                            features = await feature_extractor.extract_features(
-                                crawl_result
-                            )
-                            ai_result = await ai_analyzer.analyze_crawlability(features)
-
-                            result = AnalysisResult(
-                                url=normalized_url,
-                                timestamp=datetime.now().isoformat(),
-                                crawlability_score=ai_result.score,
-                                confidence=ai_result.confidence,
-                                label=ai_result.label,
-                                features={
-                                    **features.dict(),
-                                    "analysis_method": "standard",
-                                },
-                                recommendations=[
-                                    rec.dict() for rec in ai_result.recommendations
-                                ],
-                                analysis_time=0.0,
-                                model_version="2.1.0-standard",
-                                backend_status="online",
-                            )
-
-                            # Calculate individual scores using detailed auditor
-                            detailed_audit_features = {
-                                **features.dict(),
-                                'https_enabled': normalized_url.startswith('https://'),
-                                'ssl_certificate_valid': True,
-                                'mixed_content_issues': 0,
-                            }
-
-                            result.individual_crawlability_score = detailed_auditor.get_crawlability_score(detailed_audit_features)
-                            result.individual_indexability_score = detailed_auditor.get_indexability_score(detailed_audit_features)
-                            result.individual_site_structure_score = detailed_auditor.get_site_structure_score(detailed_audit_features)
-                            result.individual_robots_txt_score = detailed_auditor.get_robots_txt_score(detailed_audit_features)
-                            result.individual_canonical_score = detailed_auditor.get_canonical_score(detailed_audit_features)
-                            result.individual_core_web_vitals_score = detailed_auditor.get_performance_score(detailed_audit_features)
-                            result.individual_mobile_friendliness_score = detailed_auditor.get_mobile_friendliness_score(detailed_audit_features)
-                            result.individual_https_security_score = detailed_auditor.get_https_security_score(detailed_audit_features)
-                            result.individual_broken_links_score = detailed_auditor.get_broken_links_score(detailed_audit_features)
-                            result.individual_meta_tags_schema_score = detailed_auditor.get_meta_tags_schema_score(detailed_audit_features)
-
-                            batch_result.results.append(result)
-                            batch_result.processed += 1
-                        else:
-                            batch_result.failed += 1
-                    else:
-                        batch_result.failed += 1
-
-            except Exception as e:
-                logger.error(f"❌ Failed to analyze {url} in batch: {str(e)}")
-                batch_result.failed += 1
-
-        # Mark as completed
-        batch_result.status = "completed"
-        batch_result.completed_at = datetime.now()
-
-        logger.info(
-            f"✅ Enhanced batch analysis {batch_id} completed: {batch_result.processed} processed, {batch_result.failed} failed"
-        )
-
-    except Exception as e:
-        logger.error(f"❌ Batch processing failed: {str(e)}")
-        batch_result.status = "failed"
-
-
-@app.post("/export/pdf")
-async def export_pdf(
-    analysis_data: Dict[str, Any], client_ip: str = Depends(check_rate_limit)
-):
-    """Export analysis results as PDF"""
-    try:
-        logger.info(f"📄 Generating PDF export from IP: {client_ip}")
-
-        pdf_data = await export_manager.generate_pdf_report(analysis_data)
-
-        return StreamingResponse(
-            io.BytesIO(pdf_data),
-            media_type="application/pdf",
-            headers={
-                "Content-Disposition": "attachment; filename=website_analysis.pdf"
-            },
-        )
-
-    except Exception as e:
-        logger.error(f"❌ PDF export failed: {str(e)}")
-        raise HTTPException(status_code=500, detail="PDF export failed")
-
-
-@app.post("/export/csv")
-async def export_csv(
-    analysis_data: Dict[str, Any], client_ip: str = Depends(check_rate_limit)
-):
-    """Export analysis results as CSV"""
-    try:
-        logger.info(f"📊 Generating CSV export from IP: {client_ip}")
-
-        csv_data = await export_manager.generate_csv_report(analysis_data)
-
-        return StreamingResponse(
-            io.StringIO(csv_data),
-            media_type="text/csv",
-            headers={
-                "Content-Disposition": "attachment; filename=website_analysis.csv"
-            },
-        )
-
-    except Exception as e:
-        logger.error(f"❌ CSV export failed: {str(e)}")
-        raise HTTPException(status_code=500, detail="CSV export failed")
-
-
-@app.get("/stats")
-async def get_stats():
-    """Get API statistics including score consistency metrics and individual scoring stats"""
-    try:
-        stats = rate_limiter.get_stats()
-
-        # Calculate score consistency statistics
-        consistency_stats = {}
-        for url, scores in score_history.items():
-            if len(scores) > 1:
-                avg_score = statistics.mean(scores)
-                std_dev = statistics.stdev(scores)
-                min_score = min(scores)
-                max_score = max(scores)
-                variance = max_score - min_score
-
-                consistency_stats[url] = {
-                    "measurements": len(scores),
-                    "average_score": round(avg_score, 1),
-                    "standard_deviation": round(std_dev, 2),
-                    "variance": variance,
-                    "consistency_rating": (
-                        "excellent"
-                        if std_dev <= 2
-                        else "good" if std_dev <= 5 else "poor"
-                    ),
-                }
-
-        return {
-            "api_stats": stats,
-            "background_tasks": len(background_tasks_storage),
-            "system_status": "online",
-            "version": "2.1.0-enhanced",
-            "score_consistency": consistency_stats,
-            "normalization_enabled": True,
-            "individual_scoring_enabled": True,
-            "dynamic_recommendations": True,
-            "features": {
-                "individual_scores": [
-                    "crawlability",
-                    "indexability", 
-                    "site_structure",
-                    "robots_txt",
-                    "canonical",
-                    "core_web_vitals",
-                    "mobile_friendliness",
-                    "https_security",
-                    "broken_links",
-                    "meta_tags_schema"
-                ],
-                "backward_compatibility": True,
-                "production_safe": True
-            }
-        }
-
-    except Exception as e:
-        logger.error(f"❌ Stats retrieval failed: {str(e)}")
-        raise HTTPException(status_code=500, detail="Stats unavailable")
-
-
 @app.exception_handler(ValidationError)
 async def validation_exception_handler(request: Request, exc: ValidationError):
     """Handle validation errors"""
@@ -1046,7 +683,7 @@ async def general_exception_handler(request: Request, exc: Exception):
         content={
             "error": "Internal Server Error",
             "message": "An unexpected error occurred",
-            "request_id": str(uuid.uuid4()),
+            "request_id": "N/A",
         },
     )
 

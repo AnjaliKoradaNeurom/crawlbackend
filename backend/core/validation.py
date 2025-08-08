@@ -28,7 +28,7 @@ class URLValidator:
     def __init__(self):
         self.google_api_key = os.getenv('GOOGLE_API_KEY')
         self.google_search_engine_id = os.getenv('GOOGLE_SEARCH_ENGINE_ID')
-        self.lighthouse_path = os.getenv('LIGHTHOUSE_PATH')
+        self.lighthouse_path = os.getenv('LIGHTHOUSE_PATH') # Not used, but kept for consistency with original variable.
         
         # Initialize Google Search API
         self.search_service = None

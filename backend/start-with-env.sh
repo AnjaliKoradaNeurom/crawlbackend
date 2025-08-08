@@ -27,14 +27,8 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Load environment variables and check them
-echo "🔧 Loading environment variables..."
-python check_env.py
-
-if [ $? -ne 0 ]; then
-    echo "❌ Error: Environment variable check failed"
-    exit 1
-fi
+# main.py now handles environment variable loading and checking
+# The original 'check_env.py' script is not provided and is no longer needed.
 
 # Start the server
 echo "🌐 Starting FastAPI server..."

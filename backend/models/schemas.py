@@ -2,7 +2,7 @@
 Pydantic schemas for API request/response models
 """
 
-from pydantic import BaseModel, HttpUrl, Field, ConfigDict
+from pydantic import BaseModel, Field, ConfigDict
 from typing import List, Dict, Any, Optional
 from datetime import datetime
 from enum import Enum
@@ -121,11 +121,6 @@ class AIAnalysisResult(BaseModel):
     analysis_method: str = "rule_based"
     ai_explanation: Optional[str] = None
 
-class AnalysisRequest(BaseModel):
-    url: HttpUrl
-    include_lighthouse: bool = False
-    deep_crawl: bool = False
-
 class DetailedRecommendation(BaseModel):
     title: str
     description: str
@@ -180,20 +175,6 @@ class AnalysisResult(BaseModel):
     analysis_time: float
     model_version: str
     backend_status: str = "online"
-
-class BatchAnalysisRequest(BaseModel):
-    urls: List[HttpUrl] = Field(min_length=1, max_length=100)
-    include_lighthouse: bool = False
-
-class BatchAnalysisResult(BaseModel):
-    batch_id: str
-    status: str  # "processing", "completed", "failed"
-    total_urls: int
-    processed: int = 0
-    failed: int = 0
-    results: List[AnalysisResult] = []
-    started_at: datetime
-    completed_at: Optional[datetime] = None
 
 class ValidationResult(BaseModel):
     is_valid: bool
